@@ -1,0 +1,32 @@
+.gallery {
+	margin-bottom: 1.5em;
+	display: grid;
+	grid-gap: 1.5em;
+}
+
+.gallery-item {
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+}
+
+// Single Trip page gallery image viewer button css
+.mfp-gallery {
+	.mfp-content {
+		.mfp-close {
+			padding-left: 0 !important;
+		}
+	}
+}
+
+// Loops to enumerate the classes for gallery columns.
+@for $i from 2 through 9 {
+
+	.gallery-columns-#{$i} {
+		grid-template-columns: repeat($i, 1fr);
+	}
+}
+
+.gallery-caption {
+	display: block;
+}

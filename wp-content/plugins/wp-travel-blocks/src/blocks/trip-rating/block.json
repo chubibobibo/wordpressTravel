@@ -1,0 +1,23 @@
+{
+	"name": "wptravel/trip-rating",
+	"isGlobal" : false,
+	"category": "wptravel",
+	"attributes": {
+		"textAlign" : {
+			"type" : "string",
+			"default" : "left"
+		},
+		"reviewColor" : {
+			"type" : "string",
+			"default" : ""
+		},
+		"blockClientId": {
+			"type": "string",
+			"default": ""
+		}
+	},
+	"supports":{
+		"anchor": true,
+		"html":false
+	}
+}

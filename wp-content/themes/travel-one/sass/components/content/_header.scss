@@ -1,0 +1,80 @@
+.entry-header {
+	> * {
+		max-width: var(--responsive--aligndefault-width);
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+.home.page {
+	.entry-header {
+		display: none;
+	}
+}
+
+body.page {
+	.entry-title {
+		text-align: center;
+	}
+}
+
+.post-thumbnail {
+	max-width: var(--responsive--aligndefault-width);
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+// .entry-meta {
+// 	display: flex;
+// 	gap: 1em;
+// 	margin-bottom: 10px;
+// }
+
+// Grid View in archive page star rating, reviews and activity dropdown section
+.wp-travel-itinerary-items {
+	.wp-travel-post-content {
+		.entry-meta {
+			display: block;
+			.wp-travel-average-review, .wp-travel-review-text {
+				margin-top: 10px;
+			}
+		}
+	}
+}
+
+// article.has-post-thumbnail {
+// 	display: grid;
+// 	grid-template-areas:
+// 		"title"
+// 		"thumbnail"
+// 		"content"
+// 		"footerMeta";
+// 	justify-content: center;
+// 	// align-items: center;
+
+// 	.entry-header {
+// 		grid-area: title;
+// 		/* justify-self: center; */
+// 		margin-top: -100px;
+// 		background: #ffffff;
+// 		position: relative;
+// 		min-width: calc(var(--responsive--aligndefault-width) - 100px);
+// 		margin-left: auto;
+// 		margin-right: auto;
+// 		padding: 0 5em;
+// 		display: block;
+// 	}
+// 	.post-thumbnail {
+// 		grid-area: thumbnail;
+// 		// max-width: calc(var(--responsive--aligndefault-width) - 100px );
+// 		// left: 200px;
+// 		margin-top: 1.5em;
+// 	}
+// 	.entry-content {
+// 		grid-area: content;
+// 	}
+// 	.entry-footer {
+// 		grid-area: footerMeta;
+// 	}
+// }

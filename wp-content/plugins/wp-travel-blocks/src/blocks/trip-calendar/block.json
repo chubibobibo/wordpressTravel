@@ -1,0 +1,27 @@
+{
+	"name": "wptravel/trip-calendar",
+	"isGlobal" : false,
+	"category": "wptravel",
+	"attributes": {
+		"textAlign" : {
+			"type" : "string",
+			"default" : "left"
+		},
+		"displayInline": {
+			"type": "boolean",
+			"default": true
+		},
+		"showTooltip": {
+			"type": "boolean",
+			"default": true
+		},
+		"tooltipText": {
+			"type": "string",
+			"default": "Select a Date to view available pricings and other options."
+		}
+	},
+	"supports":{
+		"anchor": true,
+		"html":false
+	}
+}

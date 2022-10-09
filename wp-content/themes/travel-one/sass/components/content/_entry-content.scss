@@ -1,0 +1,86 @@
+body:not(.single):not(.page) {
+	.site-main {
+		> article {
+			&:not(:last-child) {
+				position: relative;
+				padding-bottom: 20px;
+				&::after {
+					content: "";
+					position: absolute;
+					bottom: 0;
+					height: 1px;
+					background: var(--wp--preset--color--silver);
+					max-width: var(--responsive--aligndefault-width);
+					left: 0;
+					margin: 0 auto;
+					right: 0;
+				}
+			}
+		}
+	}
+}
+.entry-summary,
+.entry-content {
+	// overflow: hidden;
+	> * {
+		max-width: var(--responsive--aligndefault-width);
+		margin-left: auto;
+		margin-right: auto;
+		// margin-top: var(--global--spacing-vertical);
+		// margin-bottom: var(--global--spacing-vertical);
+
+		// &:last-child,
+		// &.alignfull.has-background {
+		// 	margin-bottom: 0;
+		// }
+
+	}
+	*[class*="inner-container"] {
+		&
+			> *:not(.entry-content):not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.wp-block-separator):not(.woocommerce) {
+			max-width: var(--responsive--aligndefault-width);
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+	> a.more-link {
+		display: block;
+	}
+}
+
+.single-itineraries,
+.home.page {
+	.entry-content {
+		margin-top: 0;
+	}
+}
+
+.widget-area,
+// .pagination,
+.comments-pagination,
+// .post-navigation,
+.alignwide,
+.wide-max-width {
+	max-width: var(--responsive--alignwide-width);
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.alignfull,
+.wp-block-group .wp-block-group__inner-container > *.alignfull,
+.full-max-width {
+	max-width: var(--responsive--alignfull-width);
+	width: var(--responsive--alignfull-width);
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media only screen and (min-width: 482px) {
+	.alignfull,
+	.full-max-width {
+		max-width: var(--responsive--alignfull-width);
+		width: auto;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}

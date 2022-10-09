@@ -1,0 +1,27 @@
+{
+	"name": "wptravel/trips-list",
+	"isGlobal" : true,
+	"category": "wptravel",
+	"attributes": {
+		"query": {
+			"type": "object",
+			"default": {
+				"numberOfItems": 3,
+				"orderBy": "title",
+				"order" : "asc"
+			}
+		},
+		"saleTrip": {
+			"type": "boolean",
+			"default": false
+		},
+		"featuredTrip": {
+			"type": "boolean",
+			"default": false
+		}
+	},
+	"supports": {
+		"anchor": true,
+		"html": false
+	}
+}

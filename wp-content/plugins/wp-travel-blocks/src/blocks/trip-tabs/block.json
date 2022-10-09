@@ -1,0 +1,21 @@
+{
+	"name": "wptravel/tabs",
+	"isGlobal" : false,
+	"category": "wptravel",
+	"attributes": {
+		"blockClientId": {
+			"type": "string",
+			"default": ""
+		},
+		"blockAdvanceOptions": {
+			"type": "object",
+			"default":{
+				"backgroundColor" : "#fff"
+			}
+		},
+		"isEditing":{
+			"type": "boolean",
+			"default": false
+		}
+	}
+}

@@ -1,0 +1,29 @@
+{
+	"name": "wptravel/trip-facts",
+	"isGlobal" : false,
+	"category": "wptravel",
+	"attributes": {
+		"blockClientId": {
+			"type": "string",
+			"default": ""
+		},
+		"blockAdvanceOptions": {
+			"type": "object",
+			"default":{
+				"backgroundColor" : "#fff"
+			}
+		},
+		"contentJustification": {
+			"type": "string",
+			"default": "left"
+		},
+		"backgroundColor" : {
+			"type" : "string",
+			"default" : ""
+		}
+	},
+	"supports":{
+		"anchor": true,
+		"html":false
+	}
+}

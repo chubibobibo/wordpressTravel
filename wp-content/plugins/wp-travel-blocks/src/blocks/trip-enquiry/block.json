@@ -1,0 +1,12 @@
+{
+	"name": "wptravel/trip-enquiry",
+	"isGlobal" : true,
+	"category": "wptravel",
+	"attributes": {
+		  
+	},
+	"supports":{
+		"anchor": true,
+		"html":false
+	}
+}

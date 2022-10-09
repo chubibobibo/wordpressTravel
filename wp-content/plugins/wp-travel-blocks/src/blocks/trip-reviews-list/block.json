@@ -1,0 +1,15 @@
+{
+	"name": "wptravel/trip-reviews-list",
+	"isGlobal" : false,
+	"category": "wptravel",
+	"attributes": {
+		"textAlign": {
+			"type": "string",
+			"default": "left"
+		}
+	},
+	"supports": {
+		"anchor": true,
+		"html": false
+	}
+}

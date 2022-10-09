@@ -1,0 +1,24 @@
+{
+	"name": "wptravel/trip-code",
+	"isGlobal" : false,
+	"category": "wptravel",
+	"attributes": {
+		"blockClientId": {
+			"type": "string",
+			"default": ""
+		},
+		"blockAdvanceOptions": {
+			"type": "object",
+			"default":{
+				"backgroundColor" : "#fff"
+			}
+		},
+		"textAlign" : {
+			"type" : "string",
+			"default" : "left"
+		}
+	},
+	"supports":{
+		"anchor": true
+	}
+}

@@ -1,0 +1,42 @@
+{
+	"name": "wp-travel/travel-filter",
+	"category": "widgets",
+	"attributes": {
+		"title": {
+			"type": "string",
+			"default": "WP Travel Filter"
+		},
+		"heading": {
+			"type": "string",
+			"default": "h2"
+		},
+		"keyWordSearch": {
+			"type": "boolean",
+			"default": true
+		},
+		"tripFact": {
+			"type": "boolean",
+			"default": true
+		},
+		"tripTypeFilter": {
+			"type": "boolean",
+			"default": true
+		},
+		"tripLocationFilter": {
+			"type": "boolean",
+			"default": true
+		},
+		"priceOrderFilter": {
+			"type": "boolean",
+			"default": true
+		},
+		"priceRangeFilter": {
+			"type": "boolean",
+			"default": true
+		},
+		"tripDateFilter": {
+			"type": "boolean",
+			"default": true
+		}
+	}
+}

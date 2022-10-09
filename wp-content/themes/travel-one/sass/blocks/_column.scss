@@ -1,0 +1,27 @@
+.wp-block-columns {
+	.wp-block-column {
+		// margin-bottom: var(--global--spacing-vertical);
+		> {
+			* {
+				margin-top: calc(0.66 * var(--global--spacing-vertical));
+				margin-bottom: calc(0.66 * var(--global--spacing-vertical));
+				@media only screen and (min-width: 482px) {
+					margin-top: var(--global--spacing-vertical);
+					margin-bottom: var(--global--spacing-vertical);
+				}
+				&:first-child {
+					margin-top: 0;
+				}
+			}
+		}
+		// &:nth-child(even) {
+		// 	@media (min-width: 600px) and (max-width: 991px) {
+		// 		margin-left: 0;
+		// 	}
+		// }
+	}
+
+	&:not(.alignwide):not(.alignfull) {
+		clear: both;
+	}
+}

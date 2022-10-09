@@ -1,0 +1,19 @@
+.dashboard-tab {
+	.resp-tabs-container {
+		overflow: auto;
+		.order-list-table {
+			th, td {
+				text-align: left;
+			}
+		}
+	}
+	.book-more {
+		a {
+			background: var(--wp--preset--color--tundora) !important;
+            transition: 200ms ease-in-out;
+			&:hover {
+				background: var(--wp--preset--color--pizza) !important;
+			}
+		}
+	}
+}

@@ -1,0 +1,46 @@
+a {
+	color: var(--global-primary-color);
+	color: var(--wp--preset--color--tundora);
+	// text-decoration: none;
+	outline: 0 !important;
+	text-underline-offset: 3px;
+	text-decoration-skip-ink: all;
+	text-decoration-thickness: 1px;
+	text-decoration: underline;
+
+	.widget &,
+	.entry-summery &,
+	.entry-content & {
+		text-underline-offset: 3px;
+		text-decoration-skip-ink: all;
+		text-decoration-thickness: 1px;
+		text-decoration: underline;
+
+		&:hover {
+			text-decoration-style: dotted;
+			text-decoration-skip-ink: none;
+		}
+	}
+
+	&:focus-visible,
+	&:focus {
+		outline: thin dotted!important;
+	}
+
+	&:hover {
+		text-decoration-style: dotted;
+		text-decoration-skip-ink: none;
+	}
+
+	&:hover,
+	&:active {
+		color: var(--global-primary-color);
+		outline: 0;
+	}
+}
+
+.has-text-color {
+	a {
+		color: inherit;
+	}
+}

@@ -1,0 +1,48 @@
+// Blocks Tab section booking tab calendar fix
+// #booking {
+.react-datepicker-wrapper {
+	.wp-travel-date-picker-btn {
+		padding: 0 0 0 1em !important;
+	}
+}
+.react-datepicker-popper {
+	button {
+		border: none !important;
+		position: absolute !important;
+		left: unset;
+		margin-right: 0 !important;
+		top: 12px !important;
+		background: transparent !important;
+		&.react-datepicker__navigation--previous {
+			left: 10px !important;
+		}
+		&.react-datepicker__navigation--next {
+			left: unset !important;
+			right: 5px !important;
+		}
+	}
+}
+
+// .wp-travel-tab-wrapper{
+// 	.wp-travel-list-view{
+// 		.wptravel-pax-selector{
+// 			.wp-travel-booking__trip-option-list{
+// 				.qty-spinner {
+
+				
+// 					button {
+// 						padding: 0px 10px ; // increase the size of pax selector button - List date while booking
+// 						top: -2px; // increase the size of pax selector button - List date while booking
+// 					}
+// 				}
+// 			} 
+					
+					
+// 		}		
+// 	}
+// }
+	
+	
+
+
+

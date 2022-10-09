@@ -1,0 +1,19 @@
+{
+	"name": "wptravel/trip-categories",
+	"isGlobal" : false,
+	"category": "wptravel",
+	"attributes": {
+		"textAlign" : {
+			"type" : "string",
+			"default" : "left"
+		},
+		"tripTaxonomy" : {
+			"type" : "string",
+			"default" : "itinerary_types"
+		}
+	},
+	"supports":{
+		"anchor": true,
+		"html":false
+	}
+}

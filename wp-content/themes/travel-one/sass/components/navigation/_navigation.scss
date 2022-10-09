@@ -1,0 +1,612 @@
+// Mobile menu toggles
+.menu-button-container {
+	display: none;
+	justify-content: space-between;
+	position: absolute;
+	right: 0;
+	padding-top: calc(0.5 * var(--global--spacing-vertical));
+	padding-bottom: calc(0.25 * var(--global--spacing-vertical));
+
+	#primary-mobile-menu {
+		margin-left: auto;
+		padding: calc(
+				var(--button--padding-vertical) -
+					(0.25 * var(--global--spacing-unit))
+			)
+			calc(0.5 * var(--button--padding-horizontal));
+	}
+
+	@include media(mobile-only) {
+		display: flex;
+	}
+
+	// Override specificty from default button styles.
+	.button.button {
+		display: flex;
+		font-size: 40px;
+		// font-weight: var(--primary-nav--font-weight-button);
+		background-color: transparent;
+		border: none;
+		// color: var(--primary-nav--color-link);
+		line-height: 0;
+
+		.dropdown-icon {
+			display: flex;
+			align-items: center;
+
+			.svg-icon {
+				margin-left: calc(0.25 * var(--global--spacing-unit));
+			}
+
+			// Menu icon is off-center vertically to prevent blurry pixels.
+			&.open .svg-icon {
+				position: relative;
+				top: -1px;
+			}
+
+			&.close {
+				display: none;
+			}
+		}
+
+		&[aria-expanded*="true"] {
+			.dropdown-icon {
+				&.open {
+					display: none;
+				}
+
+				&.close {
+					display: flex;
+
+					.has-logo.has-title-and-tagline & {
+						animation-name: travelone-close-button-transition;
+						animation-duration: 0.3s;
+					}
+				}
+			}
+		}
+
+		&:focus-visible,
+		&:active,
+		&:focus {
+			// border-color: $color__border-button-focus;
+			outline-offset: -6px;
+			outline: 2px dotted currentColor;
+		}
+	}
+
+	// When the menu is open, hide the close button and show the hide button.
+	.primary-navigation-open & {
+		width: 100%;
+		z-index: 500;
+		// background-color: var(--global--color-background);
+
+		// Mobile menu width set to auto for the hamburger button
+		@media (max-width: 481px) {
+			width: auto;
+		}
+
+		#primary-mobile-menu {
+			position: static;
+		}
+	}
+}
+
+.primary-navigation {
+	position: absolute;
+	// top: var(--global--admin-bar--height);
+	right: 0;
+	// color: var(--primary-nav--color-text);
+	// font-size: var(--primary-nav--font-size);
+	// line-height: 1.15;
+	margin-top: 0;
+	margin-bottom: 0;
+
+	// Mobile Menu item top fix
+	// @media (max-width: 481px) {
+	// 	top: 46px;
+	// }
+
+	// Mobile menu closed
+	> .primary-menu-container {
+		position: fixed;
+		visibility: hidden;
+		opacity: 0;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		// Height of the menu-button-container using font size, line height, and total padding, plus 5px so the focus of the first item is visible.
+		padding-top: calc(
+			var(--button--line-height) * var(--primary-nav--font-size-button) +
+				42px + 5px
+		);
+		padding-left: var(--global--spacing-unit);
+		padding-right: var(--global--spacing-unit);
+		padding-bottom: var(--global--spacing-horizontal);
+		// background-color: var(--global--color-background);
+		transition: all 0.15s ease-in-out;
+		transform: translateY(var(--global--spacing-vertical));
+
+		background: var(--wp--preset--color--alabaster);
+
+		@include media(mobile-only) {
+			height: 100vh;
+			z-index: 499;
+			overflow-x: hidden;
+			overflow-y: auto;
+			border: 2px solid transparent;
+
+			.has-logo.has-title-and-tagline & {
+				position: fixed;
+				transform: translateY(0) translateX(100%);
+			}
+
+			.admin-bar .has-logo.has-title-and-tagline & {
+				top: var(--global--admin-bar--height);
+			}
+
+			.admin-bar & {
+				height: calc(100vh - var(--global--admin-bar--height));
+			}
+
+			&:focus {
+				border: 2px solid var(--global--color-primary);
+			}
+		}
+	}
+
+	// Mobile menu open
+	.primary-navigation-open & {
+		@include media(mobile-only) {
+			width: 100%;
+			position: fixed;
+			z-index: 2; // To be greater than the cover block and embeds.
+		}
+
+		> .primary-menu-container {
+			position: absolute;
+			visibility: visible;
+			opacity: 1;
+			transform: translateY(0);
+		}
+	}
+
+	.primary-navigation-open .has-logo.has-title-and-tagline & {
+		@include media(mobile-only) {
+			> .primary-menu-container {
+				transform: translateX(0) translateY(0);
+			}
+		}
+	}
+
+	@include media(mobile) {
+		position: relative;
+		margin-left: auto;
+
+		// Hide Mobile menu on desktop
+		> .primary-menu-container {
+			visibility: visible;
+			opacity: 1;
+			position: relative;
+			padding: 0;
+			// background-color: transparent;
+			overflow: initial;
+			transform: none;
+		}
+
+		// Hide mobile menu toggle
+		#toggle-menu {
+			display: none;
+		}
+
+		// Hide sub-sub-menus
+		> .primary-menu-container
+			ul
+			> li
+			.sub-menu-toggle[aria-expanded="false"]
+			~ ul {
+			display: none;
+		}
+
+		// Don't adjust position when logged-in
+		.admin-bar & {
+			top: initial;
+
+			> .primary-menu-container {
+				top: initial;
+			}
+		}
+	}
+
+	// Menu list wrapper
+	> div > .menu-wrapper {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		list-style: none;
+		margin: 0;
+		max-width: none;
+		padding-left: 0;
+		position: relative;
+
+		@include media(mobile-only) {
+			padding-bottom: 100px;
+			top: 46px;
+
+			ul {
+				// padding-left: 0;
+			}
+		}
+
+		li {
+			display: block;
+			position: relative;
+			width: 100%;
+
+			@include media(mobile) {
+				margin: 0;
+				width: inherit;
+
+				&:last-child() {
+					margin-right: 0;
+				}
+			}
+		}
+
+		// Sub-menu buttons
+		.sub-menu-toggle {
+			display: flex;
+			// height: calc(2 * var(--primary-nav--padding) + 1.15em + 1px);
+			width: 44px;
+			padding: 0;
+			justify-content: center;
+			align-items: center;
+			background: transparent;
+			color: currentColor;
+			border: none;
+
+			&:focus {
+				// outline: 2px solid
+				// 	var(--wp--style--color--link, var(--global--color-primary));
+				outline-offset: -6px;
+				outline: 1px dotted currentColor;
+			}
+
+			@include media(mobile-only) {
+				display: none;
+			}
+
+			.icon-plus,
+			.icon-minus {
+				height: 100%;
+				display: flex;
+				align-items: center;
+
+				svg {
+					margin-top: -1px;
+				}
+			}
+
+			.icon-minus {
+				display: none;
+			}
+
+			// When the sub-menu is open, display the minus icon
+			&[aria-expanded="true"] {
+				.icon-minus {
+					display: flex;
+				}
+
+				.icon-plus {
+					display: none;
+				}
+			}
+		}
+
+		// Sub-menus Flyout
+		> li > .sub-menu {
+			position: relative;
+
+			@include media(mobile) {
+				left: 0;
+				margin: 0;
+				min-width: max-content;
+				position: absolute;
+				top: 100%;
+				// padding-top: 3px;
+				transition: all 0.5s ease;
+				z-index: 88888;
+
+				li {
+					background: var(--wp--preset--color--alabaster);
+				}
+
+				&.submenu-reposition-left {
+					/* rtl:ignore */
+					left: 0;
+
+					/* rtl:ignore */
+					right: auto;
+
+					&:before,
+					&:after {
+						/* rtl:ignore */
+						left: var(--global--spacing-horizontal);
+
+						/* rtl:ignore */
+						right: auto;
+					}
+				}
+
+				&.submenu-reposition-right {
+					/* rtl:ignore */
+					right: 0;
+
+					/* rtl:ignore */
+					left: auto;
+
+					&:before,
+					&:after {
+						/* rtl:ignore */
+						left: auto;
+
+						/* rtl:ignore */
+						right: var(--global--spacing-horizontal);
+					}
+				}
+			}
+		}
+	}
+
+	// Top-level Item Link Colors
+	// .primary-menu > .menu-item:hover > a {
+	// 	color: var(--primary-nav--color-link-hover);
+	// }
+
+	.primary-menu-container {
+		@include media(mobile) {
+			// Better align with the site title when the menu wraps.
+			// margin-right: calc(0px - var(--primary-nav--padding));
+			// margin-left: calc(0px - var(--primary-nav--padding));
+
+			// Top-level Menu Item
+			> ul > .menu-item,
+			.wp-travel-multiple-currency {
+				display: flex;
+				flex-wrap: wrap;
+				align-items: center;
+
+				> a {
+					padding-left: var(--primary-nav--padding);
+					padding-right: var(--primary-nav--padding);
+
+					+ .sub-menu-toggle {
+						margin-left: calc(5px - var(--primary-nav--padding));
+					}
+				}
+			}
+		}
+	}
+
+	// Menu Item Link
+	a {
+		display: block;
+		// font-family: var(--primary-nav--font-family-mobile);
+		// font-size: var(--primary-nav--font-size-mobile);
+		// font-weight: var(--primary-nav--font-weight);
+		padding: var(--primary-nav--padding) 0;
+		text-decoration: none;
+
+		@include media(mobile) {
+			display: block;
+			// font-family: var(--primary-nav--font-family);
+			// font-size: var(--primary-nav--font-size);
+			// font-weight: var(--primary-nav--font-weight);
+		}
+
+		+ svg {
+			fill: var(--primary-nav--color-text);
+		}
+
+		&:focus {
+			position: relative;
+			z-index: 99999; // Ensure focus styles appear above absolute positioned elements
+			outline-offset: 0;
+			text-decoration-thickness: 2px;
+		}
+	}
+
+	.current-menu-item > a:first-child,
+	.current_page_item > a:first-child {
+		color: var(--global-primary-color);
+	}
+
+	// Sub-menu depth indicators + text styles
+	.sub-menu {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		margin-left: var(
+			--primary-nav--padding
+		); // Margin left changed to padding left
+		border: 1px solid var(--primary-nav--border-color);
+		@media (max-width: 481px) {
+			padding-left: var(--primary-nav--padding);
+			margin-left: 0;
+		}
+
+		.sub-menu {
+			border: none;
+			@media (max-width: 481px) {
+				border-top: 1px solid #cccccc;
+			}
+		}
+
+		// Sub-menu items om wide screens.
+		@include media(mobile) {
+			// For nested sub-menus, don't duplicate the padding
+			> .menu-item > .sub-menu {
+				padding: 0;
+			}
+		}
+
+		.menu-item {
+			@include media(mobile-only) {
+				&:last-child() {
+					margin-bottom: 0;
+				}
+			}
+
+			&:not(:last-child) {
+				a {
+					border-bottom: 0;
+				}
+			}
+			.menu-item {
+				&:first-child {
+					a {
+						border-top: 0;
+					}
+				}
+			}
+			> a {
+				padding: calc(1.25 * var(--primary-nav--padding))
+					var(--primary-nav--padding);
+				display: block;
+				min-width: 200px;
+				border: 1px solid var(--wp--preset--color--silver);
+				// font-size: var(--primary-nav--font-size-sub-menu-mobile);
+				// font-style: var(--primary-nav--font-style-sub-menu-mobile);
+
+				// @include media(mobile) {
+				// 	font-size: var(--primary-nav--font-size-sub-menu);
+				// 	font-style: var(--primary-nav--font-style);
+				// }
+
+				@include media(mobile) {
+					border: none;
+				}
+			}
+		}
+	}
+
+	// Show top-level sub-menu indicators above mobile-breakpoint-only
+	.menu-item-has-children {
+		> .svg-icon {
+			display: none;
+		}
+
+		@include media(mobile) {
+			> .svg-icon {
+				display: inline-block;
+				height: 100%;
+			}
+
+			.sub-menu .svg-icon {
+				display: none;
+			}
+		}
+	}
+
+	.menu-item-description {
+		display: block;
+		clear: both;
+		font-size: var(--global--font-size-xs);
+		text-transform: none;
+		line-height: 1.7;
+
+		> span {
+			display: inline-block;
+		}
+	}
+}
+
+// Keep the menu pinned to the top when the menu is open.
+@include media(mobile-only) {
+	.lock-scrolling .site {
+		position: fixed;
+		max-width: 100%;
+		width: 100%;
+	}
+}
+
+// Close button animation for when a custom logo is present.
+@keyframes travelone-close-button-transition {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
+.comment-navigation,
+.posts-navigation,
+.post-navigation {
+	max-width: var(--responsive--aligndefault-width);
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: var(--global--spacing-vertical);
+	margin-bottom: var(--global--spacing-vertical);
+
+	.site-main & {
+		// margin: 0 0 1.5em;
+	}
+
+	.nav-links {
+		display: flex;
+		gap: 5px;
+	}
+
+	.nav-previous {
+		flex: 1 0 50%;
+	}
+
+	.nav-next {
+		text-align: end;
+		flex: 1 0 50%;
+	}
+}
+
+.post-navigation {
+	.nav-links {
+		.nav-previous {
+			a {
+				// border-right: none;
+			}
+		}
+		.nav-next {
+			a {
+				justify-content: flex-end;
+			}
+		}
+		a {
+			border: 1px solid #404040;
+			// display: block;
+			padding: 15px;
+			height: 100%;
+			display: flex;
+			align-items: center;
+			gap: 5px;
+			@media (max-width: 599px) {
+				padding: 15px 10px;
+			}
+			&:hover {
+				.ion-ios-arrow-back {
+					&::before {
+						transform: translateX(-5px);
+						transition: all 0.5s ease;
+					}
+				}
+				.ion-ios-arrow-forward {
+					&::before {
+						transform: translateX(5px);
+						transition: all 0.5s ease;
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,38 @@
+.wp-travel {
+	//(payment method issue fix)
+	.checkout-page-wrap {
+		.wp-travel-radio-group.wp-travel-payment-field {
+			flex-wrap: wrap;
+			justify-content: right; //(justify content start from plugin)
+			label:not(.radio-checkbox-label) {
+				width: 25%; // (width 25% from plugin)
+				// @media (max-width: 1032px) {
+				// 	width: 100%;
+				// }
+			}
+			.wp-travel-radio {
+				width: 70%; //(width 20% from plugin)
+				// @media (max-width: 1032px) {
+				// 	width: 100%;
+				// }
+			}
+			@media (max-width: 1032px) {
+				justify-content: start;
+			}
+		}
+		.wp-travel-form-field {
+			&.wp-travel-radio-group {
+				display: block;
+				
+			}
+		}
+		.wp-travel-text-info {
+			.wp-travel-info-content {
+				font-weight: 900;
+			}
+		}
+	}
+	.required-label {
+		color: #ff0000;
+	}
+}

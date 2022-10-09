@@ -1,0 +1,27 @@
+{
+	"name": "wptravel/map",
+	"isGlobal" : true,
+	"category": "wptravel",
+	"attributes": {
+		"blockClientId": {
+			"type": "string",
+			"default": ""
+		},
+		"blockStyles": {
+			"type": "object",
+			"default":{
+				"backgroundColor" : "#fff"
+			}
+		},
+		"isSaved":{
+			"type":"boolean",
+			"default": false
+		},
+		"height": {
+			"type": "number"
+		}
+	},
+	"supports":{
+		"anchor": true
+	}
+}

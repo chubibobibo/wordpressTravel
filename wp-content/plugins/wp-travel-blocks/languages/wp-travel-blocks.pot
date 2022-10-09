@@ -1,0 +1,280 @@
+# Copyright (c) 2022 WP Travel Gutenberg & Elementor blocks. All Rights Reserved.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Travel Gutenberg & Elementor blocks 2.1.1\n"
+"Report-Msgid-Bugs-To: https://wptravel.io/contact/\n"
+"Last-Translator: inf@wptravel.io\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-02-09T07:50:23+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.5.0\n"
+"X-Domain: wp-travel-blocks\n"
+
+#. Plugin Name of the plugin
+msgid "WP Travel Gutenberg & Elementor blocks"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "http://wptravel.io/pro"
+msgstr ""
+
+#. Description of the plugin
+msgid "WP Travel Gutenberg & Elementor blocks is the easiest, most flexible way to display your Trips using the gutenber or elementor blocks- by location, trip type, featured and Trips on sale on posts and pages!."
+msgstr ""
+
+#. Author of the plugin
+#: bundle/2.1.1/wp-travel-blocks/inc/class-elementor-blocks.php:359
+#: bundle/2.1.1/wp-travel-blocks/wp-travel-blocks.php:152
+#: inc/class-elementor-blocks.php:359
+#: wp-travel-blocks.php:152
+msgid "WP Travel"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://wptravel.io"
+msgstr ""
+
+#: bundle/2.1.1/wp-travel-blocks/core/actions/activation.php:47
+#: core/actions/activation.php:47
+msgid "PHP"
+msgstr ""
+
+#. translators: placeholder for PHP minimum version.
+#: bundle/2.1.1/wp-travel-blocks/core/actions/activation.php:50
+#: core/actions/activation.php:50
+msgid "%s or higher"
+msgstr ""
+
+#. translators: placeholder for PHP word & PHP minimum version.
+#: bundle/2.1.1/wp-travel-blocks/core/actions/activation.php:53
+#: core/actions/activation.php:53
+msgid "WP Travel Gutenberg & Elementor blocks plugin requires %1$s version %2$s to work."
+msgstr ""
+
+#: bundle/2.1.1/wp-travel-blocks/core/actions/activation.php:56
+#: core/actions/activation.php:56
+msgid "Plugin Activation Error"
+msgstr ""
+
+#: bundle/2.1.1/wp-travel-blocks/inc/class-elementor-blocks.php:211
+#: inc/class-elementor-blocks.php:211
+msgid "*Trip Tabs Not Available."
+msgstr ""
+
+#: bundle/2.1.1/wp-travel-blocks/inc/class-elementor-blocks.php:238
+#: inc/class-elementor-blocks.php:238
+msgid "*Trip Facts Not Available."
+msgstr ""
+
+#: bundle/2.1.1/wp-travel-blocks/inc/class-elementor-blocks.php:310
+#: bundle/2.1.1/wp-travel-blocks/inc/elementor-widgets/class-wp-travel-elementor-trip-type.php:195
+#: inc/class-elementor-blocks.php:310
+#: inc/elementor-widgets/class-wp-travel-elementor-trip-type.php:195
+msgid "*Trips not found."
+msgstr ""
+
+#: bundle/2.1.1/wp-travel-blocks/inc/class-elementor-blocks.php:311
+#: inc/class-elementor-blocks.php:311
+msgid "*Featured Trip Not Available."
+msgstr ""
+
+#: bundle/2.1.1/wp-travel-blocks/inc/class-elementor-blocks.php:312
+#: inc/class-elementor-blocks.php:312
+msgid "*Trips Not Found."
+msgstr ""
+
+#: bundle/2.1.1/wp-travel-blocks/inc/elementor-widgets/class-wp-travel-elementor-featured-trips.php:55
+#: bundle/2.1.1/wp-travel-blocks/inc/elementor-widgets/class-wp-travel-elementor-google-maps.php:56
+#: bundle/2.1.1/wp-travel-blocks/inc/elementor-widgets/class-wp-travel-elementor-related-trips.php:56
+#: bundle/2.1.1/wp-travel-blocks/inc/elementor-widgets/class-wp-travel-elementor-trip-facts.php:55
+#: bundle/2.1.1/wp-travel-blocks/inc/elementor-widgets/class-wp-travel-elementor-trip-search-form.php:55
+#: bundle/2.1.1/wp-travel-blocks/inc/elementor-widgets/class-wp-travel-elementor-trip-tabs.php:62
+#: bundle/2.1.1/wp-travel-blocks/inc/elementor-widgets/class-wp-travel-elementor-trip-type.php:70
+#: inc/elementor-widgets/class-wp-travel-elementor-featured-trips.php:55
+#: inc/elementor-widgets/class-wp-travel-elementor-google-maps.php:56
+#: inc/elementor-widgets/class-wp-travel-elementor-related-trips.php:56
+#: inc/elementor-widgets/class-wp-travel-elementor-trip-facts.php:55
+#: inc/elementor-widgets/class-wp-travel-elementor-trip-search-form.php:55
+#: inc/elementor-widgets/class-wp-travel-elementor-trip-tabs.php:62
+#: inc/elementor-widgets/class-wp-travel-elementor-trip-type.php:70
+msgid "WP Travel Settings"
+msgstr ""
+
+#: bundle/2.1.1/wp-travel-blocks/inc/elementor-widgets/class-wp-travel-elementor-featured-trips.php:62
+#: bundle/2.1.1/wp-travel-blocks/inc/elementor-widgets/class-wp-travel-elementor-google-maps.php:63
+#: bundle/2.1.1/wp-travel-blocks/inc/elementor-widgets/class-wp-travel-elementor-related-trips.php:63
+#: bundle/2.1.1/wp-travel-blocks/inc/elementor-widgets/class-wp-travel-elementor-trip-facts.php:62
+#: bundle/2.1.1/wp-travel-blocks/inc/elementor-widgets/class-wp-travel-elementor-trip-search-form.php:62
+#: bundle/2.1.1/wp-travel-blocks/inc/elementor-widgets/class-wp-travel-elementor-trip-tabs.php:69
+#: bundle/2.1.1/wp-travel-blocks/inc/elementor-widgets/class-wp-travel-elementor-trip-type.php:77
+#: inc/elementor-widgets/class-wp-travel-elementor-featured-trips.php:62
+#: inc/elementor-widgets/class-wp-travel-elementor-google-maps.php:63
+#: inc/elementor-widgets/class-wp-travel-elementor-related-trips.php:63
+#: inc/elementor-widgets/class-wp-travel-elementor-trip-facts.php:62
+#: inc/elementor-widgets/class-wp-travel-elementor-trip-search-form.php:62
+#: inc/elementor-widgets/class-wp-travel-elementor-trip-tabs.php:69
+#: inc/elementor-widgets/class-wp-travel-elementor-trip-type.php:77
+msgid "Title"
+msgstr ""
+
+#: bundle/2.1.1/wp-travel-blocks/inc/elementor-widgets/class-wp-travel-elementor-featured-trips.php:71
+#: bundle/2.1.1/wp-travel-blocks/inc/elementor-widgets/class-wp-travel-elementor-google-maps.php:72
+#: bundle/2.1.1/wp-travel-blocks/inc/elementor-widgets/class-wp-travel-elementor-related-trips.php:72
+#: bundle/2.1.1/wp-travel-blocks/inc/elementor-widgets/class-wp-travel-elementor-trip-facts.php:71
+#: bundle/2.1.1/wp-travel-blocks/inc/elementor-widgets/class-wp-travel-elementor-trip-search-form.php:71
+#: bundle/2.1.1/wp-travel-blocks/inc/elementor-widgets/class-wp-travel-elementor-trip-tabs.php:78
+#: bundle/2.1.1/wp-travel-blocks/inc/elementor-widgets/class-wp-travel-elementor-trip-type.php:86
+#: inc/elementor-widgets/class-wp-travel-elementor-featured-trips.php:71
+#: inc/elementor-widgets/class-wp-travel-elementor-google-maps.php:72
+#: inc/elementor-widgets/class-wp-travel-elementor-related-trips.php:72
+#: inc/elementor-widgets/class-wp-travel-elementor-trip-facts.php:71
+#: inc/elementor-widgets/class-wp-travel-elementor-trip-search-form.php:71
+#: inc/elementor-widgets/class-wp-travel-elementor-trip-tabs.php:78
+#: inc/elementor-widgets/class-wp-travel-elementor-trip-type.php:86
+msgid "Alignment"
+msgstr ""
+
+#: bundle/2.1.1/wp-travel-blocks/inc/elementor-widgets/class-wp-travel-elementor-featured-trips.php:75
+#: bundle/2.1.1/wp-travel-blocks/inc/elementor-widgets/class-wp-travel-elementor-google-maps.php:76
+#: bundle/2.1.1/wp-travel-blocks/inc/elementor-widgets/class-wp-travel-elementor-related-trips.php:76
+#: bundle/2.1.1/wp-travel-blocks/inc/elementor-widgets/class-wp-travel-elementor-trip-facts.php:75
+#: bundle/2.1.1/wp-travel-blocks/inc/elementor-widgets/class-wp-travel-elementor-trip-search-form.php:75
+#: bundle/2.1.1/wp-travel-blocks/inc/elementor-widgets/class-wp-travel-elementor-trip-tabs.php:82
+#: bundle/2.1.1/wp-travel-blocks/inc/elementor-widgets/class-wp-travel-elementor-trip-type.php:90
+#: inc/elementor-widgets/class-wp-travel-elementor-featured-trips.php:75
+#: inc/elementor-widgets/class-wp-travel-elementor-google-maps.php:76
+#: inc/elementor-widgets/class-wp-travel-elementor-related-trips.php:76
+#: inc/elementor-widgets/class-wp-travel-elementor-trip-facts.php:75
+#: inc/elementor-widgets/class-wp-travel-elementor-trip-search-form.php:75
+#: inc/elementor-widgets/class-wp-travel-elementor-trip-tabs.php:82
+#: inc/elementor-widgets/class-wp-travel-elementor-trip-type.php:90
+msgid "Left"
+msgstr ""
+
+#: bundle/2.1.1/wp-travel-blocks/inc/elementor-widgets/class-wp-travel-elementor-featured-trips.php:79
+#: bundle/2.1.1/wp-travel-blocks/inc/elementor-widgets/class-wp-travel-elementor-google-maps.php:80
+#: bundle/2.1.1/wp-travel-blocks/inc/elementor-widgets/class-wp-travel-elementor-related-trips.php:80
+#: bundle/2.1.1/wp-travel-blocks/inc/elementor-widgets/class-wp-travel-elementor-trip-facts.php:79
+#: bundle/2.1.1/wp-travel-blocks/inc/elementor-widgets/class-wp-travel-elementor-trip-search-form.php:79
+#: bundle/2.1.1/wp-travel-blocks/inc/elementor-widgets/class-wp-travel-elementor-trip-tabs.php:86
+#: bundle/2.1.1/wp-travel-blocks/inc/elementor-widgets/class-wp-travel-elementor-trip-type.php:94
+#: inc/elementor-widgets/class-wp-travel-elementor-featured-trips.php:79
+#: inc/elementor-widgets/class-wp-travel-elementor-google-maps.php:80
+#: inc/elementor-widgets/class-wp-travel-elementor-related-trips.php:80
+#: inc/elementor-widgets/class-wp-travel-elementor-trip-facts.php:79
+#: inc/elementor-widgets/class-wp-travel-elementor-trip-search-form.php:79
+#: inc/elementor-widgets/class-wp-travel-elementor-trip-tabs.php:86
+#: inc/elementor-widgets/class-wp-travel-elementor-trip-type.php:94
+msgid "Center"
+msgstr ""
+
+#: bundle/2.1.1/wp-travel-blocks/inc/elementor-widgets/class-wp-travel-elementor-featured-trips.php:83
+#: bundle/2.1.1/wp-travel-blocks/inc/elementor-widgets/class-wp-travel-elementor-google-maps.php:84
+#: bundle/2.1.1/wp-travel-blocks/inc/elementor-widgets/class-wp-travel-elementor-related-trips.php:84
+#: bundle/2.1.1/wp-travel-blocks/inc/elementor-widgets/class-wp-travel-elementor-trip-facts.php:83
+#: bundle/2.1.1/wp-travel-blocks/inc/elementor-widgets/class-wp-travel-elementor-trip-search-form.php:83
+#: bundle/2.1.1/wp-travel-blocks/inc/elementor-widgets/class-wp-travel-elementor-trip-tabs.php:90
+#: bundle/2.1.1/wp-travel-blocks/inc/elementor-widgets/class-wp-travel-elementor-trip-type.php:98
+#: inc/elementor-widgets/class-wp-travel-elementor-featured-trips.php:83
+#: inc/elementor-widgets/class-wp-travel-elementor-google-maps.php:84
+#: inc/elementor-widgets/class-wp-travel-elementor-related-trips.php:84
+#: inc/elementor-widgets/class-wp-travel-elementor-trip-facts.php:83
+#: inc/elementor-widgets/class-wp-travel-elementor-trip-search-form.php:83
+#: inc/elementor-widgets/class-wp-travel-elementor-trip-tabs.php:90
+#: inc/elementor-widgets/class-wp-travel-elementor-trip-type.php:98
+msgid "Right"
+msgstr ""
+
+#: bundle/2.1.1/wp-travel-blocks/inc/elementor-widgets/class-wp-travel-elementor-featured-trips.php:97
+#: bundle/2.1.1/wp-travel-blocks/inc/elementor-widgets/class-wp-travel-elementor-google-maps.php:98
+#: bundle/2.1.1/wp-travel-blocks/inc/elementor-widgets/class-wp-travel-elementor-related-trips.php:98
+#: bundle/2.1.1/wp-travel-blocks/inc/elementor-widgets/class-wp-travel-elementor-trip-facts.php:97
+#: bundle/2.1.1/wp-travel-blocks/inc/elementor-widgets/class-wp-travel-elementor-trip-search-form.php:97
+#: bundle/2.1.1/wp-travel-blocks/inc/elementor-widgets/class-wp-travel-elementor-trip-tabs.php:104
+#: bundle/2.1.1/wp-travel-blocks/inc/elementor-widgets/class-wp-travel-elementor-trip-type.php:112
+#: inc/elementor-widgets/class-wp-travel-elementor-featured-trips.php:97
+#: inc/elementor-widgets/class-wp-travel-elementor-google-maps.php:98
+#: inc/elementor-widgets/class-wp-travel-elementor-related-trips.php:98
+#: inc/elementor-widgets/class-wp-travel-elementor-trip-facts.php:97
+#: inc/elementor-widgets/class-wp-travel-elementor-trip-search-form.php:97
+#: inc/elementor-widgets/class-wp-travel-elementor-trip-tabs.php:104
+#: inc/elementor-widgets/class-wp-travel-elementor-trip-type.php:112
+#: src/blocks/trip-price/inspector.js:31
+msgid "Color"
+msgstr ""
+
+#: bundle/2.1.1/wp-travel-blocks/inc/elementor-widgets/class-wp-travel-elementor-featured-trips.php:115
+#: bundle/2.1.1/wp-travel-blocks/inc/elementor-widgets/class-wp-travel-elementor-trip-type.php:130
+#: inc/elementor-widgets/class-wp-travel-elementor-featured-trips.php:115
+#: inc/elementor-widgets/class-wp-travel-elementor-trip-type.php:130
+msgid "Trip Settings"
+msgstr ""
+
+#: bundle/2.1.1/wp-travel-blocks/inc/elementor-widgets/class-wp-travel-elementor-featured-trips.php:123
+#: bundle/2.1.1/wp-travel-blocks/inc/elementor-widgets/class-wp-travel-elementor-trip-type.php:148
+#: inc/elementor-widgets/class-wp-travel-elementor-featured-trips.php:123
+#: inc/elementor-widgets/class-wp-travel-elementor-trip-type.php:148
+msgid "Trip Layout"
+msgstr ""
+
+#: bundle/2.1.1/wp-travel-blocks/inc/elementor-widgets/class-wp-travel-elementor-featured-trips.php:127
+#: bundle/2.1.1/wp-travel-blocks/inc/elementor-widgets/class-wp-travel-elementor-trip-type.php:152
+#: inc/elementor-widgets/class-wp-travel-elementor-featured-trips.php:127
+#: inc/elementor-widgets/class-wp-travel-elementor-trip-type.php:152
+msgid "Grid View"
+msgstr ""
+
+#: bundle/2.1.1/wp-travel-blocks/inc/elementor-widgets/class-wp-travel-elementor-featured-trips.php:128
+#: bundle/2.1.1/wp-travel-blocks/inc/elementor-widgets/class-wp-travel-elementor-trip-type.php:153
+#: inc/elementor-widgets/class-wp-travel-elementor-featured-trips.php:128
+#: inc/elementor-widgets/class-wp-travel-elementor-trip-type.php:153
+msgid "List View"
+msgstr ""
+
+#: bundle/2.1.1/wp-travel-blocks/inc/elementor-widgets/class-wp-travel-elementor-featured-trips.php:136
+#: bundle/2.1.1/wp-travel-blocks/inc/elementor-widgets/class-wp-travel-elementor-trip-type.php:161
+#: inc/elementor-widgets/class-wp-travel-elementor-featured-trips.php:136
+#: inc/elementor-widgets/class-wp-travel-elementor-trip-type.php:161
+msgid "Number of Trips to Display"
+msgstr ""
+
+#: bundle/2.1.1/wp-travel-blocks/inc/elementor-widgets/class-wp-travel-elementor-featured-trips.php:168
+#: inc/elementor-widgets/class-wp-travel-elementor-featured-trips.php:168
+msgid "*Featured Trip Not Available"
+msgstr ""
+
+#: bundle/2.1.1/wp-travel-blocks/inc/elementor-widgets/class-wp-travel-elementor-google-maps.php:115
+#: bundle/2.1.1/wp-travel-blocks/inc/elementor-widgets/class-wp-travel-elementor-related-trips.php:115
+#: bundle/2.1.1/wp-travel-blocks/inc/elementor-widgets/class-wp-travel-elementor-trip-facts.php:114
+#: bundle/2.1.1/wp-travel-blocks/inc/elementor-widgets/class-wp-travel-elementor-trip-tabs.php:121
+#: inc/elementor-widgets/class-wp-travel-elementor-google-maps.php:115
+#: inc/elementor-widgets/class-wp-travel-elementor-related-trips.php:115
+#: inc/elementor-widgets/class-wp-travel-elementor-trip-facts.php:114
+#: inc/elementor-widgets/class-wp-travel-elementor-trip-tabs.php:121
+msgid "<strong><i>*Works Only On Trip Pages.</i></strong>"
+msgstr ""
+
+#: bundle/2.1.1/wp-travel-blocks/inc/elementor-widgets/class-wp-travel-elementor-trip-type.php:138
+#: inc/elementor-widgets/class-wp-travel-elementor-trip-type.php:138
+msgid "Trip Types"
+msgstr ""
+
+#: bundle/2.1.1/wp-travel-blocks/src/blocks/trip-filters/index.php:61
+#: src/blocks/trip-filters/index.php:61
+msgid "Trips Filter"
+msgstr ""
+
+#: src/blocks/trip-facts/inspector.js:33
+msgid "Background Color"
+msgstr ""
+
+#: src/blocks/trip-rating/inspector.js:35
+msgid "Review Color"
+msgstr ""
+
+#: src/settings/blockSettings.js:114
+msgid "This will replace all trips with default template selected above. This action can not be undo."
+msgstr ""

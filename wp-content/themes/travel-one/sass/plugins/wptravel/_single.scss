@@ -1,0 +1,72 @@
+.page {
+	.entry-content {
+		> .wp-travel {
+			max-width: var(--responsive--alignwide-width);
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+}
+
+body.single-itineraries:not(.has-wptravel-block) {
+	.entry-summary,
+	.entry-content {
+		> * {
+			max-width: var(--responsive--alignwide-width);
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+	.site-main {
+		margin-top: 25px;
+	}
+}
+
+#shopping-cart .cart-summary .cart-header .subtitle strong {
+	background-color: var(--global-primary-color);
+}
+#trip_outline {
+	.tc-content {
+		img {
+			@media (max-width: 992px) {
+				width: 100%;
+				margin: 0;
+			}
+			@media (max-width: 767px) {
+				margin: 0 1em 1em 0;
+				width: auto;
+			}
+			@media (max-width: 450px) {
+				width: 100%;
+			}
+		}
+		&.right {
+			border-left-color: #f8c107;
+		}
+		&.left {
+			border-right-color: #f8c107;
+		}
+	}
+	.itenary .image {
+		border-color: #f8c107;
+		background: #f8c107;
+	}
+}
+
+.wp-travel-trip-duration {
+	.trip-duration-calender {
+		input {
+			padding-left: 55px !important;
+		}
+	}
+	.calender-icon {
+		width: 47px !important;
+		height: 47px !important;
+		top: 30px !important;
+		left: 2px !important;
+		&::before {
+			right: 16px !important;
+			top: 12px !important;
+		}
+	}
+}

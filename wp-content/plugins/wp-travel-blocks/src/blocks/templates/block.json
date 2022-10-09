@@ -1,0 +1,10 @@
+{
+	"name": "wptravel/templates",
+	"category": "wptravel",
+	"attributes": {
+	},
+	"supports": {
+		"anchor": true,
+		"html": false
+	}
+}

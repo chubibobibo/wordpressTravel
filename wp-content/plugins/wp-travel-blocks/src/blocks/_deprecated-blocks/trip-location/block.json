@@ -1,0 +1,22 @@
+{
+	"name": "wp-travel/trip-location",
+	"category": "wp-travel",
+	"attributes": {
+		"query": {
+			"type": "object",
+			"default": {
+				"numberOfItems": 2,
+				"orderBy": "title",
+				"order" : "asc"
+			}
+		},
+		"location": {
+			"type": "string",
+			"default": ""
+		},
+		"postNumbers": {
+			"type": "number",
+			"default": 2
+		}
+	}
+}

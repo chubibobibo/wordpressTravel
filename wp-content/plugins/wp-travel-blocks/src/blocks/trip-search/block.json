@@ -1,0 +1,27 @@
+{
+	"name": "wptravel/trip-search",
+	"isGlobal" : true,
+	"category": "wptravel",
+	"attributes": {
+		"showInput": {
+			"type": "boolean",
+			"default": true
+		},
+		"showTripType": {
+			"type": "boolean",
+			"default": true
+		},
+		"showLocation": {
+			"type": "boolean",
+			"default": true
+		},
+		"showSubmit": {
+			"type": "boolean",
+			"default": true
+		}
+	},
+	"supports":{
+		"anchor": true,
+		"html":false
+	}
+}

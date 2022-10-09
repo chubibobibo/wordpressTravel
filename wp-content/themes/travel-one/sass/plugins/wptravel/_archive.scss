@@ -1,0 +1,141 @@
+.post-type-archive-itineraries,
+.tax-itinerary_types,
+.tax-travel_locations,
+.tax-travel_keywords,
+.tax-activity {
+	&.sidebar-right {
+		article {
+			> .entry-content {
+				grid-template-areas:
+					"toolbar"
+					"main"
+					"sidebar";
+
+				@media only screen and (min-width: 1200px) {
+					grid-template-areas:
+						"toolbar toolbar"
+						"main sidebar";
+					grid-template-columns: minmax(min-content, 910px) 330px;
+				}
+			}
+		}
+	}
+	article {
+		> .entry-content {
+
+			// To fing layout in activity, vacation, tour itinerary page
+			grid-template-areas:
+				"toolbar"
+				"main"
+				"sidebar";
+
+			@media only screen and (min-width: 1200px) {
+				grid-template-areas:
+					"toolbar toolbar"
+					"main sidebar";
+				grid-template-columns: minmax(min-content, 910px) 330px;
+			}
+
+			> * {
+				max-width: inherit;
+				margin-left: auto;
+				margin-right: auto;
+			}
+
+			display: grid;
+			// grid-template-areas:
+			// 	"toolbar toolbar"
+			// 	"main main";
+			grid-template-areas:
+				"toolbar"
+				"main";
+			// grid-template-columns: minmax(min-content, 910px) 330px;
+			grid-gap: 2rem;
+			max-width: var(--responsive--alignwide-width);
+			margin-left: auto;
+			margin-right: auto;
+
+			// @include media(mobile) {
+			// 	grid-template-areas:
+			// 	"toolbar toolbar"
+			// 	"main main";
+			// }
+		}
+	}
+	.wp-travel-toolbar {
+		grid-area: toolbar;
+		max-width: var(--responsive--alignwide-width);
+		// width added in the wptravel archive search filter section archive page
+		width: 100%;
+		gap: 1.5em;
+		padding: 0 25px; 
+		margin-bottom: 0;
+
+		// Archive page filter section button padding fix
+		.wp-toolbar-left {
+			.wp-travel-post-filter {
+				display: flex;
+				flex-wrap: wrap;
+				align-items: center;
+
+				.wp-toolbar-filter-field {
+					select {
+						height: 53px !important;
+					}
+				}
+				.wp-travel-filter-button {
+					padding: 10px 9px;
+					.btn-wp-travel-filter {
+						padding: 8px 12px;
+					}
+				}
+			}
+		}
+
+		// itinerary page filter section grid and list view padding
+		.wp-travel-view-mode-lists {
+			padding: 25px 0;
+		}
+
+		a {
+			text-decoration: none;
+		}
+		.active-mode {
+			a {
+				color: var(--global-primary-color);
+			}
+		}
+	}
+
+	.wp-travel-archive-content {
+		grid-area: main;
+		// width: auto;
+		// &.wp-travel-trips-has-sidebar {
+		// 	max-width: 910px;
+		// }
+	}
+
+	#wp-travel-secondary {
+		grid-area: sidebar;
+		width: 100%;
+		// max-width: minmax( 330px, max-content );
+		// width: auto;
+		// @media (max-width: 767px) {
+		// 	max-width: 230px;
+		// }
+		// @media (max-width: 575px) {
+		// 	max-width: 100%;
+		// }
+	}
+}
+
+// Itinerary page trip list mode image padding added responsive
+// article {
+// 	.wp-travel-archive-content {
+// 		.wp-travel-default-article {
+// 			@media (max-width: 767px) {
+// 				padding-right: 15px;
+// 			}
+// 		}
+// 	}
+// }

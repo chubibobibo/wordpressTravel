@@ -1,0 +1,14 @@
+{
+	"name": "wp-travel/trip-search-form",
+	"category": "widgets",
+	"attributes": {
+		"title": {
+			"type": "string",
+			"default": "WP Travel Search"
+		},
+		"heading": {
+			"type": "string",
+			"default": "h2"
+		}
+	}
+}

@@ -1,0 +1,949 @@
+0000.001 (0) Opened log file at time: Sun, 09 Oct 2022 20:33:16 +0000 on http://localhost/myPracticeSite
+0000.003 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.23 WP: 6.0.2 PHP: 7.4.26 (apache2handler, Windows NT HOME-ABAO 10.0 build 19044 (Windows 10) AMD64) MySQL: 8.0.27 (max packet size=67108864) WPLANG: en_US Server: Apache/2.4.51 (Win64) PHP/7.4.26 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 45.6M | 6M) multisite: N openssl: OpenSSL 1.1.1l  24 Aug 2021 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.005 (0) Free space on disk containing Updraft's temporary directory: 420076.8 MB
+0000.009 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.012 (0) Semaphore (fd, wp_options) being initialised
+0000.015 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.018 (0) Set semaphore last lock (fd) time to 2022-10-09 20:33:16
+0000.020 (0) Semaphore lock (fd) complete
+0000.026 (0) Backup run: resumption=0, nonce=c2c796b0d013, file_nonce=c2c796b0d013 begun at=1665347596 (0s ago), job type=backup
+0000.029 (0) Scheduling a resumption (1) after 300 seconds (1665347896) in case this run gets aborted
+0000.052 (0) Checking if we have a zip executable available
+0000.056 (0) Creation of backups of directories: beginning
+0000.061 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0039.535 (0) Total entities for the zip file: 4351 directories, 24178 files (0 skipped as non-modified), 264.8 MB
+0039.563 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0039.941 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 100 files added (on-disk size: 880.9 KB)
+0040.007 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 200 files added (on-disk size: 880.9 KB)
+0040.071 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 300 files added (on-disk size: 880.9 KB)
+0040.125 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 400 files added (on-disk size: 880.9 KB)
+0040.203 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 500 files added (on-disk size: 880.9 KB)
+0040.272 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 600 files added (on-disk size: 880.9 KB)
+0040.304 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25 MB, 24178 files batched, 659 (660) added so far); re-opening (prior size: 880.9 KB)
+0042.997 (0) A useful amount of data was added after this amount of zip processing: 4.1 s (normalised: 4.1 s, rate: 6240.5 KB/s)
+0043.003 (0) Performance is good - will increase the amount of data we attempt to batch (time=4.1072919368744, normalised_time=4.1022451912911, max_time=42.999396800995, data points known=1, old_max_bytes=26214400, new_max_bytes=164866311)
+0043.074 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 700 files added (on-disk size: 7154.1 KB)
+0043.157 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 800 files added (on-disk size: 7154.1 KB)
+0043.241 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 900 files added (on-disk size: 7154.1 KB)
+0043.306 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 1000 files added (on-disk size: 7154.1 KB)
+0043.358 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 1100 files added (on-disk size: 7154.1 KB)
+0043.418 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 1200 files added (on-disk size: 7154.1 KB)
+0043.485 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 1300 files added (on-disk size: 7154.1 KB)
+0043.572 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 1400 files added (on-disk size: 7154.1 KB)
+0043.645 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 1500 files added (on-disk size: 7154.1 KB)
+0043.717 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 1600 files added (on-disk size: 7154.1 KB)
+0043.756 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (17.1 MB, 24178 files batched, 1001 (1661) added so far); re-opening (prior size: 7154.1 KB)
+0045.702 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 1700 files added (on-disk size: 12525.6 KB)
+0045.752 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 1800 files added (on-disk size: 12525.6 KB)
+0045.798 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 1900 files added (on-disk size: 12525.6 KB)
+0045.850 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 2000 files added (on-disk size: 12525.6 KB)
+0045.902 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 2100 files added (on-disk size: 12525.6 KB)
+0045.954 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 2200 files added (on-disk size: 12525.6 KB)
+0046.008 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 2300 files added (on-disk size: 12525.6 KB)
+0046.061 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 2400 files added (on-disk size: 12525.6 KB)
+0046.115 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 2500 files added (on-disk size: 12525.6 KB)
+0046.161 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 2600 files added (on-disk size: 12525.6 KB)
+0046.190 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (11.8 MB, 24178 files batched, 1001 (2662) added so far); re-opening (prior size: 12525.6 KB)
+0047.366 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 2700 files added (on-disk size: 15413.1 KB)
+0047.409 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 2800 files added (on-disk size: 15413.1 KB)
+0047.447 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 2900 files added (on-disk size: 15413.1 KB)
+0047.487 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 3000 files added (on-disk size: 15413.1 KB)
+0047.527 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 3100 files added (on-disk size: 15413.1 KB)
+0047.571 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 3200 files added (on-disk size: 15413.1 KB)
+0047.611 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 3300 files added (on-disk size: 15413.1 KB)
+0047.657 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 3400 files added (on-disk size: 15413.1 KB)
+0047.699 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 3500 files added (on-disk size: 15413.1 KB)
+0047.741 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 3600 files added (on-disk size: 15413.1 KB)
+0047.767 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (5.6 MB, 24178 files batched, 1001 (3663) added so far); re-opening (prior size: 15413.1 KB)
+0048.608 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 3700 files added (on-disk size: 16864.3 KB)
+0048.650 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 3800 files added (on-disk size: 16864.3 KB)
+0048.691 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 3900 files added (on-disk size: 16864.3 KB)
+0048.748 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 4000 files added (on-disk size: 16864.3 KB)
+0048.798 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 4100 files added (on-disk size: 16864.3 KB)
+0048.843 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 4200 files added (on-disk size: 16864.3 KB)
+0048.887 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 4300 files added (on-disk size: 16864.3 KB)
+0048.931 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 4400 files added (on-disk size: 16864.3 KB)
+0048.976 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 4500 files added (on-disk size: 16864.3 KB)
+0049.037 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 4600 files added (on-disk size: 16864.3 KB)
+0049.072 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (5.4 MB, 24178 files batched, 1001 (4664) added so far); re-opening (prior size: 16864.3 KB)
+0050.101 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 4700 files added (on-disk size: 18418.4 KB)
+0050.162 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 4800 files added (on-disk size: 18418.4 KB)
+0050.222 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 4900 files added (on-disk size: 18418.4 KB)
+0050.280 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 5000 files added (on-disk size: 18418.4 KB)
+0050.332 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 5100 files added (on-disk size: 18418.4 KB)
+0050.396 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 5200 files added (on-disk size: 18418.4 KB)
+0050.450 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 5300 files added (on-disk size: 18418.4 KB)
+0050.492 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 5400 files added (on-disk size: 18418.4 KB)
+0050.534 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 5500 files added (on-disk size: 18418.4 KB)
+0050.581 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 5600 files added (on-disk size: 18418.4 KB)
+0050.611 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (4.6 MB, 24178 files batched, 1001 (5665) added so far); re-opening (prior size: 18418.4 KB)
+0051.497 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 5700 files added (on-disk size: 19810.2 KB)
+0051.586 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 5800 files added (on-disk size: 19810.2 KB)
+0051.627 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 5900 files added (on-disk size: 19810.2 KB)
+0051.670 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 6000 files added (on-disk size: 19810.2 KB)
+0051.716 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 6100 files added (on-disk size: 19810.2 KB)
+0051.759 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 6200 files added (on-disk size: 19810.2 KB)
+0051.802 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 6300 files added (on-disk size: 19810.2 KB)
+0051.849 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 6400 files added (on-disk size: 19810.2 KB)
+0051.893 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 6500 files added (on-disk size: 19810.2 KB)
+0051.933 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 6600 files added (on-disk size: 19810.2 KB)
+0051.965 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (4.1 MB, 24178 files batched, 1001 (6666) added so far); re-opening (prior size: 19810.2 KB)
+0053.103 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 6700 files added (on-disk size: 21254.6 KB)
+0053.146 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 6800 files added (on-disk size: 21254.6 KB)
+0053.192 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 6900 files added (on-disk size: 21254.6 KB)
+0053.240 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 7000 files added (on-disk size: 21254.6 KB)
+0053.292 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 7100 files added (on-disk size: 21254.6 KB)
+0053.338 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 7200 files added (on-disk size: 21254.6 KB)
+0053.385 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 7300 files added (on-disk size: 21254.6 KB)
+0053.430 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 7400 files added (on-disk size: 21254.6 KB)
+0053.475 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 7500 files added (on-disk size: 21254.6 KB)
+0053.530 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 7600 files added (on-disk size: 21254.6 KB)
+0053.568 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (24.8 MB, 24178 files batched, 1001 (7667) added so far); re-opening (prior size: 21254.6 KB)
+0056.135 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 7700 files added (on-disk size: 29029.6 KB)
+0056.179 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 7800 files added (on-disk size: 29029.6 KB)
+0056.221 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 7900 files added (on-disk size: 29029.6 KB)
+0056.261 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 8000 files added (on-disk size: 29029.6 KB)
+0056.360 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 8100 files added (on-disk size: 29029.6 KB)
+0056.452 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 8200 files added (on-disk size: 29029.6 KB)
+0056.545 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 8300 files added (on-disk size: 29029.6 KB)
+0056.626 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 8400 files added (on-disk size: 29029.6 KB)
+0056.723 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 8500 files added (on-disk size: 29029.6 KB)
+0056.801 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 8600 files added (on-disk size: 29029.6 KB)
+0056.855 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (6 MB, 24178 files batched, 1001 (8668) added so far); re-opening (prior size: 29029.6 KB)
+0058.045 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 8700 files added (on-disk size: 30259.6 KB)
+0058.141 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 8800 files added (on-disk size: 30259.6 KB)
+0058.231 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 8900 files added (on-disk size: 30259.6 KB)
+0058.376 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 9000 files added (on-disk size: 30259.6 KB)
+0058.547 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 9100 files added (on-disk size: 30259.6 KB)
+0058.768 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 9200 files added (on-disk size: 30259.6 KB)
+0058.971 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 9300 files added (on-disk size: 30259.6 KB)
+0059.183 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 9400 files added (on-disk size: 30259.6 KB)
+0059.373 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 9500 files added (on-disk size: 30259.6 KB)
+0059.564 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 9600 files added (on-disk size: 30259.6 KB)
+0059.705 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (2.9 MB, 24178 files batched, 1001 (9669) added so far); re-opening (prior size: 30259.6 KB)
+0060.757 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 9700 files added (on-disk size: 31237.9 KB)
+0060.909 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 9800 files added (on-disk size: 31237.9 KB)
+0061.060 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 9900 files added (on-disk size: 31237.9 KB)
+0061.191 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 10000 files added (on-disk size: 31237.9 KB)
+0061.405 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 10100 files added (on-disk size: 31237.9 KB)
+0061.547 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 10200 files added (on-disk size: 31237.9 KB)
+0061.682 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 10300 files added (on-disk size: 31237.9 KB)
+0061.899 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 10400 files added (on-disk size: 31237.9 KB)
+0062.089 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 10500 files added (on-disk size: 31237.9 KB)
+0062.257 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 10600 files added (on-disk size: 31237.9 KB)
+0062.360 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (4.2 MB, 24178 files batched, 1001 (10670) added so far); re-opening (prior size: 31237.9 KB)
+0064.304 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 10700 files added (on-disk size: 32732.2 KB)
+0064.457 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 10800 files added (on-disk size: 32732.2 KB)
+0064.581 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 10900 files added (on-disk size: 32732.2 KB)
+0064.698 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 11000 files added (on-disk size: 32732.2 KB)
+0064.822 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 11100 files added (on-disk size: 32732.2 KB)
+0065.062 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 11200 files added (on-disk size: 32732.2 KB)
+0065.294 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 11300 files added (on-disk size: 32732.2 KB)
+0065.567 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 11400 files added (on-disk size: 32732.2 KB)
+0065.791 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 11500 files added (on-disk size: 32732.2 KB)
+0066.051 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 11600 files added (on-disk size: 32732.2 KB)
+0066.246 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (8.2 MB, 24178 files batched, 1001 (11671) added so far); re-opening (prior size: 32732.2 KB)
+0067.960 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 11700 files added (on-disk size: 35582.8 KB)
+0068.159 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 11800 files added (on-disk size: 35582.8 KB)
+0068.315 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 11900 files added (on-disk size: 35582.8 KB)
+0068.519 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 12000 files added (on-disk size: 35582.8 KB)
+0068.683 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 12100 files added (on-disk size: 35582.8 KB)
+0068.848 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 12200 files added (on-disk size: 35582.8 KB)
+0069.032 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 12300 files added (on-disk size: 35582.8 KB)
+0069.224 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 12400 files added (on-disk size: 35582.8 KB)
+0069.416 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 12500 files added (on-disk size: 35582.8 KB)
+0069.588 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 12600 files added (on-disk size: 35582.8 KB)
+0069.708 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (5.9 MB, 24178 files batched, 1001 (12672) added so far); re-opening (prior size: 35582.8 KB)
+0071.244 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 12700 files added (on-disk size: 37002.2 KB)
+0071.469 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 12800 files added (on-disk size: 37002.2 KB)
+0071.653 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 12900 files added (on-disk size: 37002.2 KB)
+0071.774 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 13000 files added (on-disk size: 37002.2 KB)
+0071.890 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 13100 files added (on-disk size: 37002.2 KB)
+0072.016 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 13200 files added (on-disk size: 37002.2 KB)
+0072.105 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 13300 files added (on-disk size: 37002.2 KB)
+0072.234 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 13400 files added (on-disk size: 37002.2 KB)
+0072.377 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 13500 files added (on-disk size: 37002.2 KB)
+0072.555 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 13600 files added (on-disk size: 37002.2 KB)
+0072.656 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (19.7 MB, 24178 files batched, 1001 (13673) added so far); re-opening (prior size: 37002.2 KB)
+0075.630 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 13700 files added (on-disk size: 45713.9 KB)
+0075.777 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 13800 files added (on-disk size: 45713.9 KB)
+0076.060 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 13900 files added (on-disk size: 45713.9 KB)
+0076.362 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 14000 files added (on-disk size: 45713.9 KB)
+0076.625 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 14100 files added (on-disk size: 45713.9 KB)
+0076.779 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 14200 files added (on-disk size: 45713.9 KB)
+0076.900 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 14300 files added (on-disk size: 45713.9 KB)
+0077.029 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 14400 files added (on-disk size: 45713.9 KB)
+0077.167 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 14500 files added (on-disk size: 45713.9 KB)
+0077.262 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 14600 files added (on-disk size: 45713.9 KB)
+0077.365 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (20.1 MB, 24178 files batched, 1001 (14674) added so far); re-opening (prior size: 45713.9 KB)
+0080.142 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 14700 files added (on-disk size: 51520.8 KB)
+0080.372 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 14800 files added (on-disk size: 51520.8 KB)
+0080.647 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 14900 files added (on-disk size: 51520.8 KB)
+0080.899 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 15000 files added (on-disk size: 51520.8 KB)
+0081.226 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 15100 files added (on-disk size: 51520.8 KB)
+0081.541 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 15200 files added (on-disk size: 51520.8 KB)
+0081.813 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 15300 files added (on-disk size: 51520.8 KB)
+0082.033 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 15400 files added (on-disk size: 51520.8 KB)
+0082.269 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 15500 files added (on-disk size: 51520.8 KB)
+0082.544 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 15600 files added (on-disk size: 51520.8 KB)
+0082.807 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (6.9 MB, 24178 files batched, 1001 (15675) added so far); re-opening (prior size: 51520.8 KB)
+0085.364 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 15700 files added (on-disk size: 53572.6 KB)
+0085.544 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 15800 files added (on-disk size: 53572.6 KB)
+0085.692 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 15900 files added (on-disk size: 53572.6 KB)
+0085.847 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 16000 files added (on-disk size: 53572.6 KB)
+0086.033 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 16100 files added (on-disk size: 53572.6 KB)
+0086.219 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 16200 files added (on-disk size: 53572.6 KB)
+0086.461 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 16300 files added (on-disk size: 53572.6 KB)
+0086.717 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 16400 files added (on-disk size: 53572.6 KB)
+0086.916 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 16500 files added (on-disk size: 53572.6 KB)
+0087.105 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 16600 files added (on-disk size: 53572.6 KB)
+0087.298 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (15.2 MB, 24178 files batched, 1001 (16676) added so far); re-opening (prior size: 53572.6 KB)
+0090.094 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 16700 files added (on-disk size: 58124.5 KB)
+0090.215 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 16800 files added (on-disk size: 58124.5 KB)
+0090.330 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 16900 files added (on-disk size: 58124.5 KB)
+0090.510 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 17000 files added (on-disk size: 58124.5 KB)
+0090.742 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 17100 files added (on-disk size: 58124.5 KB)
+0090.982 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 17200 files added (on-disk size: 58124.5 KB)
+0091.203 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 17300 files added (on-disk size: 58124.5 KB)
+0091.440 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 17400 files added (on-disk size: 58124.5 KB)
+0091.677 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 17500 files added (on-disk size: 58124.5 KB)
+0091.880 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 17600 files added (on-disk size: 58124.5 KB)
+0092.048 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (3.2 MB, 24178 files batched, 1001 (17677) added so far); re-opening (prior size: 58124.5 KB)
+0093.564 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 17700 files added (on-disk size: 59336.8 KB)
+0093.785 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 17800 files added (on-disk size: 59336.8 KB)
+0094.005 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 17900 files added (on-disk size: 59336.8 KB)
+0094.249 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 18000 files added (on-disk size: 59336.8 KB)
+0094.478 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 18100 files added (on-disk size: 59336.8 KB)
+0094.650 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 18200 files added (on-disk size: 59336.8 KB)
+0094.795 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 18300 files added (on-disk size: 59336.8 KB)
+0094.951 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 18400 files added (on-disk size: 59336.8 KB)
+0095.491 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 18500 files added (on-disk size: 59336.8 KB)
+0095.786 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 18600 files added (on-disk size: 59336.8 KB)
+0095.892 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (5.5 MB, 956 (18633) files added so far); re-opening (prior size: 59336.8 KB)
+0098.332 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 18700 files added (on-disk size: 61498.6 KB)
+0098.616 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 18800 files added (on-disk size: 61498.6 KB)
+0098.865 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 18900 files added (on-disk size: 61498.6 KB)
+0099.078 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 19000 files added (on-disk size: 61498.6 KB)
+0099.260 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 19100 files added (on-disk size: 61498.6 KB)
+0099.446 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 19200 files added (on-disk size: 61498.6 KB)
+0099.601 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 19300 files added (on-disk size: 61498.6 KB)
+0099.773 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 19400 files added (on-disk size: 61498.6 KB)
+0099.985 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 19500 files added (on-disk size: 61498.6 KB)
+0100.150 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 19600 files added (on-disk size: 61498.6 KB)
+0100.210 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (4.5 MB, 24178 files batched, 1001 (19634) added so far); re-opening (prior size: 61498.6 KB)
+0102.603 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 19700 files added (on-disk size: 62880.1 KB)
+0102.786 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 19800 files added (on-disk size: 62880.1 KB)
+0102.973 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 19900 files added (on-disk size: 62880.1 KB)
+0103.184 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 20000 files added (on-disk size: 62880.1 KB)
+0103.399 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 20100 files added (on-disk size: 62880.1 KB)
+0103.618 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 20200 files added (on-disk size: 62880.1 KB)
+0103.920 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 20300 files added (on-disk size: 62880.1 KB)
+0104.243 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 20400 files added (on-disk size: 62880.1 KB)
+0104.486 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 20500 files added (on-disk size: 62880.1 KB)
+0104.777 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 20600 files added (on-disk size: 62880.1 KB)
+0104.836 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (14.7 MB, 24178 files batched, 1001 (20635) added so far); re-opening (prior size: 62880.1 KB)
+0107.610 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 20700 files added (on-disk size: 68227.5 KB)
+0107.782 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 20800 files added (on-disk size: 68227.5 KB)
+0107.919 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 20900 files added (on-disk size: 68227.5 KB)
+0108.085 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 21000 files added (on-disk size: 68227.5 KB)
+0108.243 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 21100 files added (on-disk size: 68227.5 KB)
+0108.419 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 21200 files added (on-disk size: 68227.5 KB)
+0108.541 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 21300 files added (on-disk size: 68227.5 KB)
+0108.661 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 21400 files added (on-disk size: 68227.5 KB)
+0108.777 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 21500 files added (on-disk size: 68227.5 KB)
+0108.909 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 21600 files added (on-disk size: 68227.5 KB)
+0108.961 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (8.4 MB, 24178 files batched, 1001 (21636) added so far); re-opening (prior size: 68227.5 KB)
+0111.722 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 21700 files added (on-disk size: 71857.8 KB)
+0111.976 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 21800 files added (on-disk size: 71857.8 KB)
+0112.168 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 21900 files added (on-disk size: 71857.8 KB)
+0112.406 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 22000 files added (on-disk size: 71857.8 KB)
+0112.671 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 22100 files added (on-disk size: 71857.8 KB)
+0112.942 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 22200 files added (on-disk size: 71857.8 KB)
+0113.242 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 22300 files added (on-disk size: 71857.8 KB)
+0113.584 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 22400 files added (on-disk size: 71857.8 KB)
+0113.890 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (6.3 MB, 849 (22485) files added so far); re-opening (prior size: 71857.8 KB)
+0116.680 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 22500 files added (on-disk size: 73691.7 KB)
+0116.891 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 22600 files added (on-disk size: 73691.7 KB)
+0117.112 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 22700 files added (on-disk size: 73691.7 KB)
+0117.314 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 22800 files added (on-disk size: 73691.7 KB)
+0117.470 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 22900 files added (on-disk size: 73691.7 KB)
+0117.603 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 23000 files added (on-disk size: 73691.7 KB)
+0117.766 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 23100 files added (on-disk size: 73691.7 KB)
+0117.903 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 23200 files added (on-disk size: 73691.7 KB)
+0118.061 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 23300 files added (on-disk size: 73691.7 KB)
+0118.209 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 23400 files added (on-disk size: 73691.7 KB)
+0118.351 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (25.8 MB, 24178 files batched, 1001 (23486) added so far); re-opening (prior size: 73691.7 KB)
+0121.826 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 23500 files added (on-disk size: 81828.1 KB)
+0121.965 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 23600 files added (on-disk size: 81828.1 KB)
+0122.108 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 23700 files added (on-disk size: 81828.1 KB)
+0122.273 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 23800 files added (on-disk size: 81828.1 KB)
+0122.424 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 23900 files added (on-disk size: 81828.1 KB)
+0122.575 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 24000 files added (on-disk size: 81828.1 KB)
+0122.748 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.tmp: 24100 files added (on-disk size: 81828.1 KB)
+0125.744 (0) Creating zip file manifest (backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.list-temp.tmp)
+0125.911 (0) Successfully created zip file manifest (size: 2441810)
+0126.679 (0) Created plugins zip (0) - 85590 KB in 126.6 s (676 KB/s) (sha1: 8ced520038bc8489a0a076bdb82e4c77e2f452d8, sha256: 52cdc4f341f54f5b5b2b9dfa39d0f8db02085b378a0d2e2ab5a55f5cc9a07f72)
+0126.709 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0126.710 (0) No remote despatch: user chose no remote backup service
+0126.710 (0) Recording as successfully uploaded: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip
+0126.712 (0) Deleting zip manifest (backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip.list.tmp)
+0126.718 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0126.720 (0) Number of backup sets in history: 0; groups (db): 1
+0126.721 (0) Number of backup sets in history: 0; groups (files): 1
+0126.722 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0126.732 (0) Beginning creation of dump of themes (split every: 400 MB)
+0127.547 (0) Total entities for the zip file: 431 directories, 1280 files (0 skipped as non-modified), 44.3 MB
+0127.585 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0127.621 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0127.665 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0127.704 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0127.740 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0127.782 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0127.819 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0127.861 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-themes.zip.tmp: 800 files added (on-disk size: 0 KB)
+0127.911 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-themes.zip.tmp: 900 files added (on-disk size: 0 KB)
+0127.956 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-themes.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0127.958 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (36.8 MB, 1280 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0130.805 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-themes.zip.tmp: 1100 files added (on-disk size: 13227.4 KB)
+0130.841 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-themes.zip.tmp: 1200 files added (on-disk size: 13227.4 KB)
+0131.446 (0) Creating zip file manifest (backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-themes.zip.list-temp.tmp)
+0131.458 (0) Successfully created zip file manifest (size: 99950)
+0131.716 (0) Created themes zip (0) - 19592.9 KB in 5 s (3935.3 KB/s) (sha1: 48e491bba93e228f00aedd8aa2f586eef460a8be, sha256: 18672cfe6c07ee589747520ac497f1b85829c223994a1e1e8882e268da6e28a5)
+0131.726 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0131.727 (0) No remote despatch: user chose no remote backup service
+0131.728 (0) Recording as successfully uploaded: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-themes.zip
+0131.731 (0) Deleting zip manifest (backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-themes.zip.list.tmp)
+0131.734 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0131.737 (0) Number of backup sets in history: 0; groups (db): 1
+0131.738 (0) Number of backup sets in history: 0; groups (files): 1
+0131.739 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0131.748 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0131.749 (0) Looking for candidates to backup in: D:\wamp64\www\myPracticeSite/wp-content/uploads
+0131.751 (0) finding files: 2021: adding to list (1)
+0131.753 (0) finding files: 2022: adding to list (2)
+0131.754 (0) finding files: ac_assets: adding to list (3)
+0131.755 (0) finding files: astra-sites: adding to list (4)
+0131.756 (0) finding files: elementor: adding to list (5)
+0131.758 (0) finding files: essential-addons-elementor: adding to list (6)
+0131.759 (0) finding files: live-weather-station: adding to list (7)
+0131.760 (0) finding files: mailpoet: adding to list (8)
+0131.761 (0) finding files: rsssl: adding to list (9)
+0131.762 (0) finding files: unlimited_elements_cache: adding to list (10)
+0131.764 (0) finding files: wc-logs: adding to list (11)
+0131.765 (0) finding files: woocommerce-placeholder-100x100.png: adding to list (12)
+0131.767 (0) finding files: woocommerce-placeholder-1024x1024.png: adding to list (13)
+0131.768 (0) finding files: woocommerce-placeholder-1170x536.png: adding to list (14)
+0131.769 (0) finding files: woocommerce-placeholder-150x150.png: adding to list (15)
+0131.770 (0) finding files: woocommerce-placeholder-300x300.png: adding to list (16)
+0131.772 (0) finding files: woocommerce-placeholder-365x215.png: adding to list (17)
+0131.773 (0) finding files: woocommerce-placeholder-396x360.png: adding to list (18)
+0131.774 (0) finding files: woocommerce-placeholder-585x295.png: adding to list (19)
+0131.775 (0) finding files: woocommerce-placeholder-600x600.png: adding to list (20)
+0131.776 (0) finding files: woocommerce-placeholder-768x768.png: adding to list (21)
+0131.778 (0) finding files: woocommerce-placeholder.png: adding to list (22)
+0131.779 (0) finding files: woocommerce_uploads: adding to list (23)
+0131.780 (0) finding files: wpforms: adding to list (24)
+0131.781 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0132.067 (0) Total entities for the zip file: 17 directories, 582 files (0 skipped as non-modified), 54.8 MB
+0132.112 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0132.148 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0132.186 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0132.225 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-uploads.zip.tmp: 400 files added (on-disk size: 0 KB)
+0132.258 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-uploads.zip.tmp: 500 files added (on-disk size: 0 KB)
+0133.090 (0) Creating zip file manifest (backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-uploads.zip.list-temp.tmp)
+0133.099 (0) Successfully created zip file manifest (size: 36299)
+0133.648 (0) Created uploads zip (0) - 54154.5 KB in 1.9 s (29080.2 KB/s) (sha1: 4d5890ccb0b7290322e126fb8ba4f72a5a59765e, sha256: 4e62ff12f6f777073d80ba7c85ae353fdc5c2d5ee1d306a743e363b1a8a5157b)
+0133.656 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0133.657 (0) No remote despatch: user chose no remote backup service
+0133.659 (0) Recording as successfully uploaded: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-uploads.zip
+0133.664 (0) Deleting zip manifest (backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-uploads.zip.list.tmp)
+0133.668 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0133.670 (0) Number of backup sets in history: 0; groups (db): 1
+0133.671 (0) Number of backup sets in history: 0; groups (files): 1
+0133.672 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0133.680 (0) Beginning backup of other directories found in the content directory (index: 0)
+0133.681 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0133.683 (0) Looking for candidates to backup in: D:\wamp64\www\myPracticeSite/wp-content
+0133.684 (0) finding files: index.php: adding to list (1)
+0133.685 (0) finding files: languages: adding to list (2)
+0133.686 (0) finding files: plugins: skipping: this is the plugins directory
+0133.687 (0) finding files: themes: skipping: this is the themes directory
+0133.689 (0) finding files: updraft: skipping: this is the updraft directory
+0133.690 (0) finding files: upgrade: skipping: excluded by options
+0133.691 (0) finding files: uploads: skipping: this is the uploads directory
+0133.928 (0) Total entities for the zip file: 3 directories, 499 files (0 skipped as non-modified), 9 MB
+0133.964 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0134.008 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-others.zip.tmp: 200 files added (on-disk size: 0 KB)
+0134.052 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-others.zip.tmp: 300 files added (on-disk size: 0 KB)
+0134.088 (0) Zip: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-others.zip.tmp: 400 files added (on-disk size: 0 KB)
+0135.124 (0) Creating zip file manifest (backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-others.zip.list-temp.tmp)
+0135.130 (0) Successfully created zip file manifest (size: 40741)
+0135.162 (0) Created others zip (0) - 2638.5 KB in 1.5 s (1801.8 KB/s) (sha1: 8364c057326a9c977769d524d17a75c851395166, sha256: 653d463c3ecabfb69d622f66f4737254dbf11df1ec66a3501afe8984d622f1ff)
+0135.170 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0135.172 (0) No remote despatch: user chose no remote backup service
+0135.173 (0) Recording as successfully uploaded: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-others.zip
+0135.176 (0) Deleting zip manifest (backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-others.zip.list.tmp)
+0135.179 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0135.181 (0) Number of backup sets in history: 0; groups (db): 1
+0135.182 (0) Number of backup sets in history: 0; groups (files): 1
+0135.183 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0135.196 (0) Saving backup status to database (elements: 8)
+0135.198 (0) Beginning creation of database dump (WordPress DB)
+0135.199 (0) Couldn't get the sql_mode value (N;); will not attempt any adjustment
+0135.203 (0) Testing potential mysqldump binary: C:\Program Files\MySQL\MySQL Workbench 8.0 CE\mysqldump.exe
+0135.504 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!50503 SET character_set_client = utf8mb4 */;\n (truncated - 1613 bytes total)
+0135.505 (0) Working binary mysqldump found: "C:\Program Files\MySQL\MySQL Workbench 8.0 CE\mysqldump.exe"
+0135.551 (0) Table wp_options: Total expected rows (via COUNT): 882
+0135.821 (0) Table wp_options: Rows added in this batch (next record: 9809): 878 (uncompressed bytes in this segment=8687617) in 0.29 seconds
+0135.835 (0) Table wp_options: finishing file(s) (2, 1061.3 KB)
+0135.846 (0) Table wp_users: Total expected rows (via COUNT): 2
+0135.847 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0135.851 (0) Table wp_users: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1720) in 0.01 seconds
+0135.864 (0) Table wp_users: finishing file(s) (2, 0.7 KB)
+0135.876 (0) Table wp_usermeta: Total expected rows (via COUNT): 50
+0135.877 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0135.885 (0) Table wp_usermeta: Rows added in this batch (next record: 50): 50 (uncompressed bytes in this segment=4864) in 0.01 seconds
+0135.896 (0) Table wp_usermeta: finishing file(s) (2, 2.1 KB)
+0135.913 (0) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 205
+0135.915 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0135.941 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 281): 205 (uncompressed bytes in this segment=88547) in 0.04 seconds
+0135.954 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 6.8 KB)
+0135.964 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+0135.968 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=622) in 0.01 seconds
+0135.977 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0135.986 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 7
+0135.987 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0135.992 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 7): 7 (uncompressed bytes in this segment=837) in 0.01 seconds
+0136.001 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.5 KB)
+0136.012 (0) Table wp_actionscheduler_logs: Total expected rows (via COUNT): 597
+0136.045 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 607): 597 (uncompressed bytes in this segment=52236) in 0.04 seconds
+0136.055 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 5.6 KB)
+0136.069 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0136.073 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=721) in 0.01 seconds
+0136.083 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0136.095 (0) Table wp_comments: Total expected rows (via COUNT): 3
+0136.097 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0136.102 (0) Table wp_comments: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=3123) in 0.01 seconds
+0136.111 (0) Table wp_comments: finishing file(s) (2, 1.2 KB)
+0136.123 (0) Table wp_links: Total expected rows (via COUNT): 0
+0136.127 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1496) in 0.01 seconds
+0136.136 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0136.200 (0) Table wp_postmeta: Total expected rows (approximate): 4084
+0136.816 (0) Table wp_postmeta: Rows added in this batch (next record: 5568): 4641 (uncompressed bytes in this segment=17677844) in 0.67 seconds
+0136.827 (0) Table wp_postmeta: finishing file(s) (2, 1694.4 KB)
+0136.857 (0) Table wp_posts: Total expected rows (via COUNT): 598
+0137.045 (0) Table wp_posts: Rows added in this batch (next record: 920): 598 (uncompressed bytes in this segment=4646103) in 0.21 seconds
+0137.058 (0) Table wp_posts: finishing file(s) (2, 158.4 KB)
+0137.067 (0) Table wp_term_relationships: Total expected rows (approximate): 20
+0137.073 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 50 (uncompressed bytes in this segment=1391) in 0.01 seconds
+0137.083 (0) Table wp_term_relationships: finishing file(s) (2, 0.5 KB)
+0137.095 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 23
+0137.096 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0137.102 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 23): 23 (uncompressed bytes in this segment=1834) in 0.01 seconds
+0137.113 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.6 KB)
+0137.125 (0) Table wp_termmeta: Total expected rows (via COUNT): 6
+0137.126 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0137.129 (0) Table wp_termmeta: Rows added in this batch (next record: 6): 6 (uncompressed bytes in this segment=990) in 0.01 seconds
+0137.140 (0) Table wp_termmeta: finishing file(s) (2, 0.5 KB)
+0137.148 (0) Table wp_terms: Total expected rows (via COUNT): 23
+0137.149 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0137.152 (0) Table wp_terms: Rows added in this batch (next record: 23): 23 (uncompressed bytes in this segment=1592) in 0.01 seconds
+0137.161 (0) Table wp_terms: finishing file(s) (2, 0.7 KB)
+0137.170 (0) Table wp_wc_category_lookup: Total expected rows (approximate): 2
+0137.174 (0) Table wp_wc_category_lookup: Rows added in this batch (next record: 1000): 2 (uncompressed bytes in this segment=592) in 0.01 seconds
+0137.184 (0) Table wp_wc_category_lookup: finishing file(s) (2, 0.3 KB)
+0137.196 (0) Table wp_wc_product_meta_lookup: Total expected rows (via COUNT): 15
+0137.198 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0137.204 (0) Table wp_wc_product_meta_lookup: Rows added in this batch (next record: 876): 15 (uncompressed bytes in this segment=2740) in 0.01 seconds
+0137.214 (0) Table wp_wc_product_meta_lookup: finishing file(s) (2, 0.7 KB)
+0137.225 (0) Table wp_wc_reserved_stock: Total expected rows (approximate): 0
+0137.229 (0) Table wp_wc_reserved_stock: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=657) in 0.01 seconds
+0137.240 (0) Table wp_wc_reserved_stock: finishing file(s) (2, 0.4 KB)
+0137.249 (0) Table wp_wc_tax_rate_classes: Total expected rows (via COUNT): 2
+0137.250 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0137.254 (0) Table wp_wc_tax_rate_classes: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=808) in 0.01 seconds
+0137.264 (0) Table wp_wc_tax_rate_classes: finishing file(s) (2, 0.4 KB)
+0137.279 (0) Table wp_woocommerce_order_itemmeta: Total expected rows (via COUNT): 18
+0137.285 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0137.290 (0) Table wp_woocommerce_order_itemmeta: Rows added in this batch (next record: 18): 18 (uncompressed bytes in this segment=2665) in 0.02 seconds
+0137.301 (0) Table wp_woocommerce_order_itemmeta: finishing file(s) (2, 1.1 KB)
+0137.312 (0) Table wp_woocommerce_payment_tokenmeta: Total expected rows (via COUNT): 0
+0137.316 (0) Table wp_woocommerce_payment_tokenmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=790) in 0.01 seconds
+0137.327 (0) Table wp_woocommerce_payment_tokenmeta: finishing file(s) (2, 0.4 KB)
+0137.336 (0) Table wp_e_events: Total expected rows (via COUNT): 10
+0137.338 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0137.345 (0) Table wp_e_events: Rows added in this batch (next record: 10): 10 (uncompressed bytes in this segment=2571) in 0.01 seconds
+0137.355 (0) Table wp_e_events: finishing file(s) (2, 0.7 KB)
+0137.367 (0) Table wp_gla_budget_recommendations: Total expected rows (approximate): 4230
+0137.607 (0) Table wp_gla_budget_recommendations: Rows added in this batch (next record: 4230): 4230 (uncompressed bytes in this segment=131445) in 0.25 seconds
+0137.617 (0) Table wp_gla_budget_recommendations: finishing file(s) (2, 33 KB)
+0137.628 (0) Table wp_gla_merchant_issues: Total expected rows (via COUNT): 0
+0137.630 (0) Table wp_gla_merchant_issues: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1153) in 0.01 seconds
+0137.640 (0) Table wp_gla_merchant_issues: finishing file(s) (2, 0.4 KB)
+0137.649 (0) Table wp_gla_shipping_rates: Total expected rows (via COUNT): 0
+0137.651 (0) Table wp_gla_shipping_rates: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=725) in 0.01 seconds
+0137.660 (0) Table wp_gla_shipping_rates: finishing file(s) (2, 0.4 KB)
+0137.669 (0) Table wp_gla_shipping_times: Total expected rows (via COUNT): 0
+0137.671 (0) Table wp_gla_shipping_times: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=580) in 0.01 seconds
+0137.679 (0) Table wp_gla_shipping_times: finishing file(s) (2, 0.3 KB)
+0137.692 (0) Table wp_mailpoet_custom_fields: Total expected rows (via COUNT): 0
+0137.693 (0) Table wp_mailpoet_custom_fields: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=827) in 0.01 seconds
+0137.704 (0) Table wp_mailpoet_custom_fields: finishing file(s) (2, 0.4 KB)
+0137.714 (0) Table wp_mailpoet_dynamic_segment_filters: Total expected rows (via COUNT): 0
+0137.715 (0) Table wp_mailpoet_dynamic_segment_filters: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=914) in 0.01 seconds
+0137.724 (0) Table wp_mailpoet_dynamic_segment_filters: finishing file(s) (2, 0.4 KB)
+0137.734 (0) Table wp_mailpoet_feature_flags: Total expected rows (via COUNT): 0
+0137.735 (0) Table wp_mailpoet_feature_flags: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=740) in 0.01 seconds
+0137.745 (0) Table wp_mailpoet_feature_flags: finishing file(s) (2, 0.4 KB)
+0137.758 (0) Table wp_mailpoet_forms: Total expected rows (via COUNT): 0
+0137.759 (0) Table wp_mailpoet_forms: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=908) in 0.01 seconds
+0137.770 (0) Table wp_mailpoet_forms: finishing file(s) (2, 0.4 KB)
+0137.784 (0) Table wp_mailpoet_log: Total expected rows (via COUNT): 0
+0137.786 (0) Table wp_mailpoet_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=627) in 0.01 seconds
+0137.798 (0) Table wp_mailpoet_log: finishing file(s) (2, 0.4 KB)
+0137.809 (0) Table wp_mailpoet_newsletter_links: Total expected rows (via COUNT): 0
+0137.811 (0) Table wp_mailpoet_newsletter_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=930) in 0.01 seconds
+0137.821 (0) Table wp_mailpoet_newsletter_links: finishing file(s) (2, 0.4 KB)
+0137.834 (0) Table wp_mailpoet_newsletter_option: Total expected rows (via COUNT): 0
+0137.835 (0) Table wp_mailpoet_newsletter_option: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=853) in 0.01 seconds
+0137.847 (0) Table wp_mailpoet_newsletter_option: finishing file(s) (2, 0.4 KB)
+0137.856 (0) Table wp_mailpoet_newsletter_option_fields: Total expected rows (via COUNT): 24
+0137.857 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0137.863 (0) Table wp_mailpoet_newsletter_option_fields: Rows added in this batch (next record: 24): 24 (uncompressed bytes in this segment=2518) in 0.01 seconds
+0137.872 (0) Table wp_mailpoet_newsletter_option_fields: finishing file(s) (2, 0.7 KB)
+0137.882 (0) Table wp_mailpoet_newsletter_posts: Total expected rows (via COUNT): 0
+0137.886 (0) Table wp_mailpoet_newsletter_posts: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=747) in 0.01 seconds
+0137.897 (0) Table wp_mailpoet_newsletter_posts: finishing file(s) (2, 0.4 KB)
+0137.906 (0) Table wp_mailpoet_newsletter_segment: Total expected rows (via COUNT): 0
+0137.907 (0) Table wp_mailpoet_newsletter_segment: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=787) in 0.00 seconds
+0137.916 (0) Table wp_mailpoet_newsletter_segment: finishing file(s) (2, 0.4 KB)
+0137.936 (0) Table wp_mailpoet_newsletter_templates: Total expected rows (via COUNT): 76
+0137.937 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0137.976 (0) Table wp_mailpoet_newsletter_templates: Rows added in this batch (next record: 76): 76 (uncompressed bytes in this segment=1118927) in 0.05 seconds
+0137.989 (0) Table wp_mailpoet_newsletter_templates: finishing file(s) (2, 67 KB)
+0138.003 (0) Table wp_mailpoet_newsletters: Total expected rows (via COUNT): 0
+0138.006 (0) Table wp_mailpoet_newsletters: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1746) in 0.01 seconds
+0138.017 (0) Table wp_mailpoet_newsletters: finishing file(s) (2, 0.6 KB)
+0138.026 (0) Table wp_mailpoet_scheduled_task_subscribers: Total expected rows (approximate): 0
+0138.028 (0) Table wp_mailpoet_scheduled_task_subscribers: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=900) in 0.01 seconds
+0138.037 (0) Table wp_mailpoet_scheduled_task_subscribers: finishing file(s) (2, 0.4 KB)
+0138.051 (0) Table wp_mailpoet_scheduled_tasks: Total expected rows (via COUNT): 16
+0138.052 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0138.059 (0) Table wp_mailpoet_scheduled_tasks: Rows added in this batch (next record: 16): 16 (uncompressed bytes in this segment=3713) in 0.02 seconds
+0138.071 (0) Table wp_mailpoet_scheduled_tasks: finishing file(s) (2, 1 KB)
+0138.081 (0) Table wp_mailpoet_segments: Total expected rows (via COUNT): 3
+0138.082 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0138.085 (0) Table wp_mailpoet_segments: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=1648) in 0.01 seconds
+0138.095 (0) Table wp_mailpoet_segments: finishing file(s) (2, 0.7 KB)
+0138.107 (0) Table wp_mailpoet_sending_queues: Total expected rows (via COUNT): 0
+0138.111 (0) Table wp_mailpoet_sending_queues: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1241) in 0.01 seconds
+0138.121 (0) Table wp_mailpoet_sending_queues: finishing file(s) (2, 0.5 KB)
+0138.134 (0) Table wp_mailpoet_settings: Total expected rows (via COUNT): 15
+0138.135 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0138.142 (0) Table wp_mailpoet_settings: Rows added in this batch (next record: 15): 15 (uncompressed bytes in this segment=3137) in 0.01 seconds
+0138.154 (0) Table wp_mailpoet_settings: finishing file(s) (2, 1.2 KB)
+0138.164 (0) Table wp_mailpoet_statistics_bounces: Total expected rows (via COUNT): 0
+0138.167 (0) Table wp_mailpoet_statistics_bounces: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=688) in 0.01 seconds
+0138.178 (0) Table wp_mailpoet_statistics_bounces: finishing file(s) (2, 0.4 KB)
+0138.188 (0) Table wp_mailpoet_statistics_clicks: Total expected rows (via COUNT): 0
+0138.190 (0) Table wp_mailpoet_statistics_clicks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1097) in 0.01 seconds
+0138.200 (0) Table wp_mailpoet_statistics_clicks: finishing file(s) (2, 0.5 KB)
+0138.210 (0) Table wp_mailpoet_statistics_forms: Total expected rows (via COUNT): 0
+0138.212 (0) Table wp_mailpoet_statistics_forms: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=694) in 0.01 seconds
+0138.222 (0) Table wp_mailpoet_statistics_forms: finishing file(s) (2, 0.4 KB)
+0138.231 (0) Table wp_mailpoet_statistics_newsletters: Total expected rows (via COUNT): 0
+0138.233 (0) Table wp_mailpoet_statistics_newsletters: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=815) in 0.00 seconds
+0138.244 (0) Table wp_mailpoet_statistics_newsletters: finishing file(s) (2, 0.4 KB)
+0138.254 (0) Table wp_mailpoet_statistics_opens: Total expected rows (via COUNT): 0
+0138.256 (0) Table wp_mailpoet_statistics_opens: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1051) in 0.00 seconds
+0138.267 (0) Table wp_mailpoet_statistics_opens: finishing file(s) (2, 0.5 KB)
+0138.277 (0) Table wp_mailpoet_statistics_unsubscribes: Total expected rows (via COUNT): 0
+0138.278 (0) Table wp_mailpoet_statistics_unsubscribes: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1010) in 0.01 seconds
+0138.288 (0) Table wp_mailpoet_statistics_unsubscribes: finishing file(s) (2, 0.5 KB)
+0138.300 (0) Table wp_mailpoet_statistics_woocommerce_purchases: Total expected rows (via COUNT): 0
+0138.302 (0) Table wp_mailpoet_statistics_woocommerce_purchases: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1248) in 0.01 seconds
+0138.312 (0) Table wp_mailpoet_statistics_woocommerce_purchases: finishing file(s) (2, 0.5 KB)
+0138.321 (0) Table wp_mailpoet_stats_notifications: Total expected rows (via COUNT): 0
+0138.323 (0) Table wp_mailpoet_stats_notifications: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=819) in 0.01 seconds
+0138.334 (0) Table wp_mailpoet_stats_notifications: finishing file(s) (2, 0.4 KB)
+0138.344 (0) Table wp_mailpoet_subscriber_custom_field: Total expected rows (via COUNT): 0
+0138.347 (0) Table wp_mailpoet_subscriber_custom_field: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=894) in 0.01 seconds
+0138.357 (0) Table wp_mailpoet_subscriber_custom_field: finishing file(s) (2, 0.4 KB)
+0138.367 (0) Table wp_mailpoet_subscriber_ips: Total expected rows (approximate): 0
+0138.369 (0) Table wp_mailpoet_subscriber_ips: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=593) in 0.01 seconds
+0138.379 (0) Table wp_mailpoet_subscriber_ips: finishing file(s) (2, 0.4 KB)
+0138.389 (0) Table wp_mailpoet_subscriber_segment: Total expected rows (via COUNT): 2
+0138.391 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0138.396 (0) Table wp_mailpoet_subscriber_segment: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1120) in 0.01 seconds
+0138.406 (0) Table wp_mailpoet_subscriber_segment: finishing file(s) (2, 0.5 KB)
+0138.417 (0) Table wp_mailpoet_subscriber_tag: Total expected rows (via COUNT): 0
+0138.422 (0) Table wp_mailpoet_subscriber_tag: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=778) in 0.01 seconds
+0138.432 (0) Table wp_mailpoet_subscriber_tag: finishing file(s) (2, 0.4 KB)
+0138.447 (0) Table wp_mailpoet_subscribers: Total expected rows (via COUNT): 2
+0138.448 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0138.453 (0) Table wp_mailpoet_subscribers: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=2886) in 0.02 seconds
+0138.466 (0) Table wp_mailpoet_subscribers: finishing file(s) (2, 0.9 KB)
+0138.475 (0) Table wp_mailpoet_tags: Total expected rows (via COUNT): 0
+0138.479 (0) Table wp_mailpoet_tags: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=713) in 0.01 seconds
+0138.488 (0) Table wp_mailpoet_tags: finishing file(s) (2, 0.4 KB)
+0138.498 (0) Table wp_mailpoet_user_agents: Total expected rows (via COUNT): 0
+0138.500 (0) Table wp_mailpoet_user_agents: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=753) in 0.01 seconds
+0138.510 (0) Table wp_mailpoet_user_agents: finishing file(s) (2, 0.4 KB)
+0138.519 (0) Table wp_mailpoet_user_flags: Total expected rows (via COUNT): 0
+0138.521 (0) Table wp_mailpoet_user_flags: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=801) in 0.01 seconds
+0138.532 (0) Table wp_mailpoet_user_flags: finishing file(s) (2, 0.4 KB)
+0138.546 (0) Table wp_trp_dictionary_en_us_fr_fr: Total expected rows (via COUNT): 67
+0138.547 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0138.554 (0) Table wp_trp_dictionary_en_us_fr_fr: Rows added in this batch (next record: 67): 67 (uncompressed bytes in this segment=7372) in 0.02 seconds
+0138.566 (0) Table wp_trp_dictionary_en_us_fr_fr: finishing file(s) (2, 2.9 KB)
+0138.586 (0) Table wp_trp_gettext_en_us: Total expected rows (via COUNT): 449
+0138.587 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0138.619 (0) Table wp_trp_gettext_en_us: Rows added in this batch (next record: 449): 449 (uncompressed bytes in this segment=25439) in 0.05 seconds
+0138.633 (0) Table wp_trp_gettext_en_us: finishing file(s) (2, 6.7 KB)
+0138.646 (0) Table wp_trp_gettext_fr_fr: Total expected rows (via COUNT): 2
+0138.648 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0138.652 (0) Table wp_trp_gettext_fr_fr: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1082) in 0.01 seconds
+0138.662 (0) Table wp_trp_gettext_fr_fr: finishing file(s) (2, 0.5 KB)
+0138.672 (0) Table wp_trp_gettext_original_meta: Total expected rows (via COUNT): 0
+0138.675 (0) Table wp_trp_gettext_original_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=836) in 0.01 seconds
+0138.686 (0) Table wp_trp_gettext_original_meta: finishing file(s) (2, 0.4 KB)
+0138.696 (0) Table wp_trp_gettext_original_strings: Total expected rows (via COUNT): 449
+0138.697 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0138.720 (0) Table wp_trp_gettext_original_strings: Rows added in this batch (next record: 449): 449 (uncompressed bytes in this segment=27370) in 0.03 seconds
+0138.731 (0) Table wp_trp_gettext_original_strings: finishing file(s) (2, 5.5 KB)
+0138.742 (0) Table wp_trp_original_meta: Total expected rows (via COUNT): 0
+0138.745 (0) Table wp_trp_original_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=772) in 0.01 seconds
+0138.755 (0) Table wp_trp_original_meta: finishing file(s) (2, 0.4 KB)
+0138.763 (0) Table wp_trp_original_strings: Total expected rows (via COUNT): 67
+0138.764 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0138.771 (0) Table wp_trp_original_strings: Rows added in this batch (next record: 67): 67 (uncompressed bytes in this segment=6151) in 0.01 seconds
+0138.780 (0) Table wp_trp_original_strings: finishing file(s) (2, 2.6 KB)
+0138.790 (0) Table wp_wc_admin_note_actions: Total expected rows (via COUNT): 49
+0138.792 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0138.799 (0) Table wp_wc_admin_note_actions: Rows added in this batch (next record: 459): 49 (uncompressed bytes in this segment=9154) in 0.01 seconds
+0138.810 (0) Table wp_wc_admin_note_actions: finishing file(s) (2, 2.1 KB)
+0138.820 (0) Table wp_wc_admin_notes: Total expected rows (via COUNT): 43
+0138.821 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0138.828 (0) Table wp_wc_admin_notes: Rows added in this batch (next record: 43): 43 (uncompressed bytes in this segment=21335) in 0.01 seconds
+0138.839 (0) Table wp_wc_admin_notes: finishing file(s) (2, 5.3 KB)
+0138.848 (0) Table wp_wc_customer_lookup: Total expected rows (via COUNT): 0
+0138.852 (0) Table wp_wc_customer_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1258) in 0.01 seconds
+0138.861 (0) Table wp_wc_customer_lookup: finishing file(s) (2, 0.5 KB)
+0138.870 (0) Table wp_wc_download_log: Total expected rows (via COUNT): 0
+0138.872 (0) Table wp_wc_download_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=735) in 0.00 seconds
+0138.881 (0) Table wp_wc_download_log: finishing file(s) (2, 0.4 KB)
+0138.891 (0) Table wp_wc_order_coupon_lookup: Total expected rows (approximate): 0
+0138.893 (0) Table wp_wc_order_coupon_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=709) in 0.01 seconds
+0138.901 (0) Table wp_wc_order_coupon_lookup: finishing file(s) (2, 0.4 KB)
+0138.910 (0) Table wp_wc_order_product_lookup: Total expected rows (via COUNT): 0
+0138.912 (0) Table wp_wc_order_product_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1203) in 0.01 seconds
+0138.921 (0) Table wp_wc_order_product_lookup: finishing file(s) (2, 0.5 KB)
+0138.931 (0) Table wp_wc_order_stats: Total expected rows (via COUNT): 0
+0138.933 (0) Table wp_wc_order_stats: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1106) in 0.01 seconds
+0138.941 (0) Table wp_wc_order_stats: finishing file(s) (2, 0.5 KB)
+0138.951 (0) Table wp_wc_order_tax_lookup: Total expected rows (approximate): 0
+0138.953 (0) Table wp_wc_order_tax_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=791) in 0.01 seconds
+0138.963 (0) Table wp_wc_order_tax_lookup: finishing file(s) (2, 0.4 KB)
+0138.973 (0) Table wp_wc_product_attributes_lookup: Total expected rows (approximate): 0
+0138.975 (0) Table wp_wc_product_attributes_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=850) in 0.00 seconds
+0138.985 (0) Table wp_wc_product_attributes_lookup: finishing file(s) (2, 0.4 KB)
+0138.994 (0) Table wp_wc_product_download_directories: Total expected rows (via COUNT): 3
+0138.996 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0139.000 (0) Table wp_wc_product_download_directories: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=1010) in 0.01 seconds
+0139.011 (0) Table wp_wc_product_download_directories: finishing file(s) (2, 0.5 KB)
+0139.020 (0) Table wp_wc_rate_limits: Total expected rows (via COUNT): 0
+0139.024 (0) Table wp_wc_rate_limits: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=688) in 0.01 seconds
+0139.035 (0) Table wp_wc_rate_limits: finishing file(s) (2, 0.4 KB)
+0139.044 (0) Table wp_wc_webhooks: Total expected rows (via COUNT): 0
+0139.046 (0) Table wp_wc_webhooks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1215) in 0.01 seconds
+0139.057 (0) Table wp_wc_webhooks: finishing file(s) (2, 0.5 KB)
+0139.069 (0) Table wp_woocommerce_api_keys: Total expected rows (via COUNT): 0
+0139.071 (0) Table wp_woocommerce_api_keys: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1038) in 0.01 seconds
+0139.083 (0) Table wp_woocommerce_api_keys: finishing file(s) (2, 0.5 KB)
+0139.091 (0) Table wp_woocommerce_attribute_taxonomies: Total expected rows (via COUNT): 0
+0139.094 (0) Table wp_woocommerce_attribute_taxonomies: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=954) in 0.01 seconds
+0139.105 (0) Table wp_woocommerce_attribute_taxonomies: finishing file(s) (2, 0.4 KB)
+0139.117 (0) Table wp_woocommerce_downloadable_product_permissions: Total expected rows (via COUNT): 0
+0139.118 (0) Table wp_woocommerce_downloadable_product_permissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1518) in 0.01 seconds
+0139.128 (0) Table wp_woocommerce_downloadable_product_permissions: finishing file(s) (2, 0.5 KB)
+0139.140 (0) Table wp_woocommerce_log: Total expected rows (via COUNT): 0
+0139.142 (0) Table wp_woocommerce_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=715) in 0.01 seconds
+0139.155 (0) Table wp_woocommerce_log: finishing file(s) (2, 0.4 KB)
+0139.166 (0) Table wp_woocommerce_order_items: Total expected rows (via COUNT): 3
+0139.167 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0139.171 (0) Table wp_woocommerce_order_items: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=896) in 0.01 seconds
+0139.182 (0) Table wp_woocommerce_order_items: finishing file(s) (2, 0.5 KB)
+0139.189 (0) Table wp_woocommerce_payment_tokens: Total expected rows (via COUNT): 0
+0139.193 (0) Table wp_woocommerce_payment_tokens: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=833) in 0.01 seconds
+0139.202 (0) Table wp_woocommerce_payment_tokens: finishing file(s) (2, 0.4 KB)
+0139.212 (0) Table wp_woocommerce_sessions: Total expected rows (via COUNT): 2
+0139.214 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0139.218 (0) Table wp_woocommerce_sessions: Rows added in this batch (next record: 3): 2 (uncompressed bytes in this segment=4850) in 0.01 seconds
+0139.232 (0) Table wp_woocommerce_sessions: finishing file(s) (2, 1.2 KB)
+0139.240 (0) Table wp_woocommerce_shipping_zone_locations: Total expected rows (via COUNT): 0
+0139.246 (0) Table wp_woocommerce_shipping_zone_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=866) in 0.01 seconds
+0139.255 (0) Table wp_woocommerce_shipping_zone_locations: finishing file(s) (2, 0.4 KB)
+0139.264 (0) Table wp_woocommerce_shipping_zone_methods: Total expected rows (via COUNT): 0
+0139.266 (0) Table wp_woocommerce_shipping_zone_methods: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=763) in 0.00 seconds
+0139.274 (0) Table wp_woocommerce_shipping_zone_methods: finishing file(s) (2, 0.4 KB)
+0139.284 (0) Table wp_woocommerce_shipping_zones: Total expected rows (via COUNT): 0
+0139.286 (0) Table wp_woocommerce_shipping_zones: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=625) in 0.00 seconds
+0139.296 (0) Table wp_woocommerce_shipping_zones: finishing file(s) (2, 0.4 KB)
+0139.304 (0) Table wp_woocommerce_tax_rate_locations: Total expected rows (via COUNT): 1
+0139.305 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0139.311 (0) Table wp_woocommerce_tax_rate_locations: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=940) in 0.01 seconds
+0139.320 (0) Table wp_woocommerce_tax_rate_locations: finishing file(s) (2, 0.4 KB)
+0139.330 (0) Table wp_woocommerce_tax_rates: Total expected rows (via COUNT): 1
+0139.331 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0139.333 (0) Table wp_woocommerce_tax_rates: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1396) in 0.01 seconds
+0139.342 (0) Table wp_woocommerce_tax_rates: finishing file(s) (2, 0.5 KB)
+0139.356 (0) Table wp_wpforms_tasks_meta: Total expected rows (via COUNT): 4
+0139.358 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0139.361 (0) Table wp_wpforms_tasks_meta: Rows added in this batch (next record: 5): 4 (uncompressed bytes in this segment=1014) in 0.01 seconds
+0139.373 (0) Table wp_wpforms_tasks_meta: finishing file(s) (2, 0.5 KB)
+0139.397 (0) Table wp_wpmailsmtp_debug_events: Total expected rows (via COUNT): 4
+0139.398 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0139.401 (0) Table wp_wpmailsmtp_debug_events: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=2117) in 0.02 seconds
+0139.411 (0) Table wp_wpmailsmtp_debug_events: finishing file(s) (2, 0.7 KB)
+0139.425 (0) Table wp_wpmailsmtp_tasks_meta: Total expected rows (via COUNT): 2
+0139.427 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0139.430 (0) Table wp_wpmailsmtp_tasks_meta: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=874) in 0.01 seconds
+0139.442 (0) Table wp_wpmailsmtp_tasks_meta: finishing file(s) (2, 0.4 KB)
+0139.452 (0) Table wp_wt_dates: Total expected rows (via COUNT): 0
+0139.456 (0) Table wp_wt_dates: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1290) in 0.01 seconds
+0139.465 (0) Table wp_wt_dates: finishing file(s) (2, 0.4 KB)
+0139.477 (0) Table wp_wt_excluded_dates_times: Total expected rows (via COUNT): 0
+0139.479 (0) Table wp_wt_excluded_dates_times: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1281) in 0.01 seconds
+0139.488 (0) Table wp_wt_excluded_dates_times: finishing file(s) (2, 0.4 KB)
+0139.500 (0) Table wp_wt_price_category_relation: Total expected rows (via COUNT): 0
+0139.502 (0) Table wp_wt_price_category_relation: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1024) in 0.01 seconds
+0139.513 (0) Table wp_wt_price_category_relation: finishing file(s) (2, 0.4 KB)
+0139.527 (0) Table wp_wt_pricings: Total expected rows (via COUNT): 0
+0139.530 (0) Table wp_wt_pricings: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=956) in 0.01 seconds
+0139.541 (0) Table wp_wt_pricings: finishing file(s) (2, 0.4 KB)
+0139.546 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_options.table.tmpr9810.gz (1/98/fopen): adding to final database dump
+0139.599 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_options.table.gz (2/98/fopen): adding to final database dump
+0139.601 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_users.table.tmpr3.gz (3/98/fopen): adding to final database dump
+0139.603 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_users.table.gz (4/98/fopen): adding to final database dump
+0139.604 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_usermeta.table.tmpr51.gz (5/98/fopen): adding to final database dump
+0139.606 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_usermeta.table.gz (6/98/fopen): adding to final database dump
+0139.607 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_actionscheduler_actions.table.tmpr282.gz (7/98/fopen): adding to final database dump
+0139.609 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_actionscheduler_actions.table.gz (8/98/fopen): adding to final database dump
+0139.611 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_actionscheduler_claims.table.tmpr0.gz (9/98/fopen): adding to final database dump
+0139.613 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_actionscheduler_claims.table.gz (10/98/fopen): adding to final database dump
+0139.615 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_actionscheduler_groups.table.tmpr8.gz (11/98/fopen): adding to final database dump
+0139.617 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_actionscheduler_groups.table.gz (12/98/fopen): adding to final database dump
+0139.619 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_actionscheduler_logs.table.tmpr608.gz (13/98/fopen): adding to final database dump
+0139.621 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_actionscheduler_logs.table.gz (14/98/fopen): adding to final database dump
+0139.622 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_commentmeta.table.tmpr0.gz (15/98/fopen): adding to final database dump
+0139.624 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_commentmeta.table.gz (16/98/fopen): adding to final database dump
+0139.625 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_comments.table.tmpr4.gz (17/98/fopen): adding to final database dump
+0139.628 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_comments.table.gz (18/98/fopen): adding to final database dump
+0139.631 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_links.table.tmpr0.gz (19/98/fopen): adding to final database dump
+0139.633 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_links.table.gz (20/98/fopen): adding to final database dump
+0139.635 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_postmeta.table.tmpr5569.gz (21/98/fopen): adding to final database dump
+0139.721 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_postmeta.table.gz (22/98/fopen): adding to final database dump
+0139.722 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_posts.table.tmpr921.gz (23/98/fopen): adding to final database dump
+0139.734 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_posts.table.gz (24/98/fopen): adding to final database dump
+0139.735 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_term_relationships.table.tmpr100001.gz (25/98/fopen): adding to final database dump
+0139.736 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_term_relationships.table.gz (26/98/fopen): adding to final database dump
+0139.738 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_term_taxonomy.table.tmpr24.gz (27/98/fopen): adding to final database dump
+0139.739 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_term_taxonomy.table.gz (28/98/fopen): adding to final database dump
+0139.741 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_termmeta.table.tmpr7.gz (29/98/fopen): adding to final database dump
+0139.742 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_termmeta.table.gz (30/98/fopen): adding to final database dump
+0139.744 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_terms.table.tmpr24.gz (31/98/fopen): adding to final database dump
+0139.746 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_terms.table.gz (32/98/fopen): adding to final database dump
+0139.748 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_wc_category_lookup.table.tmpr1001.gz (33/98/fopen): adding to final database dump
+0139.750 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_wc_category_lookup.table.gz (34/98/fopen): adding to final database dump
+0139.752 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_wc_product_meta_lookup.table.tmpr877.gz (35/98/fopen): adding to final database dump
+0139.753 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_wc_product_meta_lookup.table.gz (36/98/fopen): adding to final database dump
+0139.755 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_wc_reserved_stock.table.tmpr1.gz (37/98/fopen): adding to final database dump
+0139.757 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_wc_reserved_stock.table.gz (38/98/fopen): adding to final database dump
+0139.758 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_wc_tax_rate_classes.table.tmpr3.gz (39/98/fopen): adding to final database dump
+0139.761 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_wc_tax_rate_classes.table.gz (40/98/fopen): adding to final database dump
+0139.763 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_woocommerce_order_itemmeta.table.tmpr19.gz (41/98/fopen): adding to final database dump
+0139.765 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_woocommerce_order_itemmeta.table.gz (42/98/fopen): adding to final database dump
+0139.767 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_woocommerce_payment_tokenmeta.table.tmpr0.gz (43/98/fopen): adding to final database dump
+0139.768 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_woocommerce_payment_tokenmeta.table.gz (44/98/fopen): adding to final database dump
+0139.770 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_e_events.table.tmpr11.gz (45/98/fopen): adding to final database dump
+0139.771 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_e_events.table.gz (46/98/fopen): adding to final database dump
+0139.772 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_gla_budget_recommendations.table.tmpr4231.gz (47/98/fopen): adding to final database dump
+0139.776 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_gla_budget_recommendations.table.gz (48/98/fopen): adding to final database dump
+0139.778 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_gla_merchant_issues.table.tmpr0.gz (49/98/fopen): adding to final database dump
+0139.780 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_gla_merchant_issues.table.gz (50/98/fopen): adding to final database dump
+0139.782 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_gla_shipping_rates.table.tmpr0.gz (51/98/fopen): adding to final database dump
+0139.783 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_gla_shipping_rates.table.gz (52/98/fopen): adding to final database dump
+0139.784 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_gla_shipping_times.table.tmpr0.gz (53/98/fopen): adding to final database dump
+0139.786 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_gla_shipping_times.table.gz (54/98/fopen): adding to final database dump
+0139.787 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_mailpoet_custom_fields.table.tmpr0.gz (55/98/fopen): adding to final database dump
+0139.789 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_mailpoet_custom_fields.table.gz (56/98/fopen): adding to final database dump
+0139.790 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_mailpoet_dynamic_segment_filters.table.tmpr0.gz (57/98/fopen): adding to final database dump
+0139.792 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_mailpoet_dynamic_segment_filters.table.gz (58/98/fopen): adding to final database dump
+0139.795 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_mailpoet_feature_flags.table.tmpr0.gz (59/98/fopen): adding to final database dump
+0139.797 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_mailpoet_feature_flags.table.gz (60/98/fopen): adding to final database dump
+0139.798 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_mailpoet_forms.table.tmpr0.gz (61/98/fopen): adding to final database dump
+0139.799 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_mailpoet_forms.table.gz (62/98/fopen): adding to final database dump
+0139.800 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_mailpoet_log.table.tmpr0.gz (63/98/fopen): adding to final database dump
+0139.802 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_mailpoet_log.table.gz (64/98/fopen): adding to final database dump
+0139.803 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_mailpoet_newsletter_links.table.tmpr0.gz (65/98/fopen): adding to final database dump
+0139.805 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_mailpoet_newsletter_links.table.gz (66/98/fopen): adding to final database dump
+0139.807 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_mailpoet_newsletter_option.table.tmpr0.gz (67/98/fopen): adding to final database dump
+0139.809 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_mailpoet_newsletter_option.table.gz (68/98/fopen): adding to final database dump
+0139.811 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_mailpoet_newsletter_option_fields.table.tmpr25.gz (69/98/fopen): adding to final database dump
+0139.813 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_mailpoet_newsletter_option_fields.table.gz (70/98/fopen): adding to final database dump
+0139.815 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_mailpoet_newsletter_posts.table.tmpr0.gz (71/98/fopen): adding to final database dump
+0139.817 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_mailpoet_newsletter_posts.table.gz (72/98/fopen): adding to final database dump
+0139.818 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_mailpoet_newsletter_segment.table.tmpr0.gz (73/98/fopen): adding to final database dump
+0139.820 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_mailpoet_newsletter_segment.table.gz (74/98/fopen): adding to final database dump
+0139.821 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_mailpoet_newsletter_templates.table.tmpr77.gz (75/98/fopen): adding to final database dump
+0139.825 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_mailpoet_newsletter_templates.table.gz (76/98/fopen): adding to final database dump
+0139.827 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_mailpoet_newsletters.table.tmpr0.gz (77/98/fopen): adding to final database dump
+0139.830 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_mailpoet_newsletters.table.gz (78/98/fopen): adding to final database dump
+0139.831 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_mailpoet_scheduled_task_subscribers.table.tmpr1.gz (79/98/fopen): adding to final database dump
+0139.833 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_mailpoet_scheduled_task_subscribers.table.gz (80/98/fopen): adding to final database dump
+0139.835 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_mailpoet_scheduled_tasks.table.tmpr17.gz (81/98/fopen): adding to final database dump
+0139.836 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_mailpoet_scheduled_tasks.table.gz (82/98/fopen): adding to final database dump
+0139.838 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_mailpoet_segments.table.tmpr4.gz (83/98/fopen): adding to final database dump
+0139.840 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_mailpoet_segments.table.gz (84/98/fopen): adding to final database dump
+0139.842 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_mailpoet_sending_queues.table.tmpr0.gz (85/98/fopen): adding to final database dump
+0139.844 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_mailpoet_sending_queues.table.gz (86/98/fopen): adding to final database dump
+0139.846 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_mailpoet_settings.table.tmpr16.gz (87/98/fopen): adding to final database dump
+0139.847 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_mailpoet_settings.table.gz (88/98/fopen): adding to final database dump
+0139.848 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_mailpoet_statistics_bounces.table.tmpr0.gz (89/98/fopen): adding to final database dump
+0139.850 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_mailpoet_statistics_bounces.table.gz (90/98/fopen): adding to final database dump
+0139.851 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_mailpoet_statistics_clicks.table.tmpr0.gz (91/98/fopen): adding to final database dump
+0139.853 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_mailpoet_statistics_clicks.table.gz (92/98/fopen): adding to final database dump
+0139.854 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_mailpoet_statistics_forms.table.tmpr0.gz (93/98/fopen): adding to final database dump
+0139.856 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_mailpoet_statistics_forms.table.gz (94/98/fopen): adding to final database dump
+0139.857 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_mailpoet_statistics_newsletters.table.tmpr0.gz (95/98/fopen): adding to final database dump
+0139.858 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_mailpoet_statistics_newsletters.table.gz (96/98/fopen): adding to final database dump
+0139.860 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_mailpoet_statistics_opens.table.tmpr0.gz (97/98/fopen): adding to final database dump
+0139.862 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_mailpoet_statistics_opens.table.gz (98/98/fopen): adding to final database dump
+0139.864 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_mailpoet_statistics_unsubscribes.table.tmpr0.gz (99/98/fopen): adding to final database dump
+0139.868 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_mailpoet_statistics_unsubscribes.table.gz (100/98/fopen): adding to final database dump
+0139.870 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_mailpoet_statistics_woocommerce_purchases.table.tmpr0.gz (101/98/fopen): adding to final database dump
+0139.871 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_mailpoet_statistics_woocommerce_purchases.table.gz (102/98/fopen): adding to final database dump
+0139.873 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_mailpoet_stats_notifications.table.tmpr0.gz (103/98/fopen): adding to final database dump
+0139.875 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_mailpoet_stats_notifications.table.gz (104/98/fopen): adding to final database dump
+0139.877 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_mailpoet_subscriber_custom_field.table.tmpr0.gz (105/98/fopen): adding to final database dump
+0139.879 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_mailpoet_subscriber_custom_field.table.gz (106/98/fopen): adding to final database dump
+0139.880 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_mailpoet_subscriber_ips.table.tmpr1.gz (107/98/fopen): adding to final database dump
+0139.881 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_mailpoet_subscriber_ips.table.gz (108/98/fopen): adding to final database dump
+0139.883 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_mailpoet_subscriber_segment.table.tmpr3.gz (109/98/fopen): adding to final database dump
+0139.884 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_mailpoet_subscriber_segment.table.gz (110/98/fopen): adding to final database dump
+0139.885 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_mailpoet_subscriber_tag.table.tmpr0.gz (111/98/fopen): adding to final database dump
+0139.887 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_mailpoet_subscriber_tag.table.gz (112/98/fopen): adding to final database dump
+0139.888 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_mailpoet_subscribers.table.tmpr3.gz (113/98/fopen): adding to final database dump
+0139.890 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_mailpoet_subscribers.table.gz (114/98/fopen): adding to final database dump
+0139.891 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_mailpoet_tags.table.tmpr0.gz (115/98/fopen): adding to final database dump
+0139.892 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_mailpoet_tags.table.gz (116/98/fopen): adding to final database dump
+0139.894 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_mailpoet_user_agents.table.tmpr0.gz (117/98/fopen): adding to final database dump
+0139.896 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_mailpoet_user_agents.table.gz (118/98/fopen): adding to final database dump
+0139.898 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_mailpoet_user_flags.table.tmpr0.gz (119/98/fopen): adding to final database dump
+0139.900 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_mailpoet_user_flags.table.gz (120/98/fopen): adding to final database dump
+0139.902 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_trp_dictionary_en_us_fr_fr.table.tmpr68.gz (121/98/fopen): adding to final database dump
+0139.904 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_trp_dictionary_en_us_fr_fr.table.gz (122/98/fopen): adding to final database dump
+0139.905 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_trp_gettext_en_us.table.tmpr450.gz (123/98/fopen): adding to final database dump
+0139.907 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_trp_gettext_en_us.table.gz (124/98/fopen): adding to final database dump
+0139.909 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_trp_gettext_fr_fr.table.tmpr3.gz (125/98/fopen): adding to final database dump
+0139.912 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_trp_gettext_fr_fr.table.gz (126/98/fopen): adding to final database dump
+0139.914 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_trp_gettext_original_meta.table.tmpr0.gz (127/98/fopen): adding to final database dump
+0139.916 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_trp_gettext_original_meta.table.gz (128/98/fopen): adding to final database dump
+0139.918 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_trp_gettext_original_strings.table.tmpr450.gz (129/98/fopen): adding to final database dump
+0139.920 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_trp_gettext_original_strings.table.gz (130/98/fopen): adding to final database dump
+0139.921 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_trp_original_meta.table.tmpr0.gz (131/98/fopen): adding to final database dump
+0139.923 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_trp_original_meta.table.gz (132/98/fopen): adding to final database dump
+0139.924 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_trp_original_strings.table.tmpr68.gz (133/98/fopen): adding to final database dump
+0139.925 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_trp_original_strings.table.gz (134/98/fopen): adding to final database dump
+0139.927 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_wc_admin_note_actions.table.tmpr460.gz (135/98/fopen): adding to final database dump
+0139.929 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_wc_admin_note_actions.table.gz (136/98/fopen): adding to final database dump
+0139.931 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_wc_admin_notes.table.tmpr44.gz (137/98/fopen): adding to final database dump
+0139.933 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_wc_admin_notes.table.gz (138/98/fopen): adding to final database dump
+0139.935 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_wc_customer_lookup.table.tmpr0.gz (139/98/fopen): adding to final database dump
+0139.937 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_wc_customer_lookup.table.gz (140/98/fopen): adding to final database dump
+0139.938 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_wc_download_log.table.tmpr0.gz (141/98/fopen): adding to final database dump
+0139.939 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_wc_download_log.table.gz (142/98/fopen): adding to final database dump
+0139.940 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_wc_order_coupon_lookup.table.tmpr1.gz (143/98/fopen): adding to final database dump
+0139.942 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_wc_order_coupon_lookup.table.gz (144/98/fopen): adding to final database dump
+0139.943 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_wc_order_product_lookup.table.tmpr0.gz (145/98/fopen): adding to final database dump
+0139.945 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_wc_order_product_lookup.table.gz (146/98/fopen): adding to final database dump
+0139.946 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_wc_order_stats.table.tmpr0.gz (147/98/fopen): adding to final database dump
+0139.949 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_wc_order_stats.table.gz (148/98/fopen): adding to final database dump
+0139.951 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_wc_order_tax_lookup.table.tmpr1.gz (149/98/fopen): adding to final database dump
+0139.953 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_wc_order_tax_lookup.table.gz (150/98/fopen): adding to final database dump
+0139.954 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_wc_product_attributes_lookup.table.tmpr1.gz (151/98/fopen): adding to final database dump
+0139.955 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_wc_product_attributes_lookup.table.gz (152/98/fopen): adding to final database dump
+0139.956 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_wc_product_download_directories.table.tmpr4.gz (153/98/fopen): adding to final database dump
+0139.958 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_wc_product_download_directories.table.gz (154/98/fopen): adding to final database dump
+0139.959 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_wc_rate_limits.table.tmpr0.gz (155/98/fopen): adding to final database dump
+0139.961 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_wc_rate_limits.table.gz (156/98/fopen): adding to final database dump
+0139.962 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_wc_webhooks.table.tmpr0.gz (157/98/fopen): adding to final database dump
+0139.964 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_wc_webhooks.table.gz (158/98/fopen): adding to final database dump
+0139.966 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_woocommerce_api_keys.table.tmpr0.gz (159/98/fopen): adding to final database dump
+0139.967 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_woocommerce_api_keys.table.gz (160/98/fopen): adding to final database dump
+0139.968 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_woocommerce_attribute_taxonomies.table.tmpr0.gz (161/98/fopen): adding to final database dump
+0139.970 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_woocommerce_attribute_taxonomies.table.gz (162/98/fopen): adding to final database dump
+0139.971 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_woocommerce_downloadable_product_permissions.table.tmpr0.gz (163/98/fopen): adding to final database dump
+0139.972 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_woocommerce_downloadable_product_permissions.table.gz (164/98/fopen): adding to final database dump
+0139.973 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_woocommerce_log.table.tmpr0.gz (165/98/fopen): adding to final database dump
+0139.975 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_woocommerce_log.table.gz (166/98/fopen): adding to final database dump
+0139.976 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_woocommerce_order_items.table.tmpr4.gz (167/98/fopen): adding to final database dump
+0139.979 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_woocommerce_order_items.table.gz (168/98/fopen): adding to final database dump
+0139.980 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_woocommerce_payment_tokens.table.tmpr0.gz (169/98/fopen): adding to final database dump
+0139.981 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_woocommerce_payment_tokens.table.gz (170/98/fopen): adding to final database dump
+0139.983 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_woocommerce_sessions.table.tmpr4.gz (171/98/fopen): adding to final database dump
+0139.984 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_woocommerce_sessions.table.gz (172/98/fopen): adding to final database dump
+0139.985 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_woocommerce_shipping_zone_locations.table.tmpr0.gz (173/98/fopen): adding to final database dump
+0139.987 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_woocommerce_shipping_zone_locations.table.gz (174/98/fopen): adding to final database dump
+0139.988 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_woocommerce_shipping_zone_methods.table.tmpr0.gz (175/98/fopen): adding to final database dump
+0139.989 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_woocommerce_shipping_zone_methods.table.gz (176/98/fopen): adding to final database dump
+0139.990 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_woocommerce_shipping_zones.table.tmpr0.gz (177/98/fopen): adding to final database dump
+0139.992 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_woocommerce_shipping_zones.table.gz (178/98/fopen): adding to final database dump
+0139.993 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_woocommerce_tax_rate_locations.table.tmpr2.gz (179/98/fopen): adding to final database dump
+0139.995 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_woocommerce_tax_rate_locations.table.gz (180/98/fopen): adding to final database dump
+0139.997 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_woocommerce_tax_rates.table.tmpr2.gz (181/98/fopen): adding to final database dump
+0139.998 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_woocommerce_tax_rates.table.gz (182/98/fopen): adding to final database dump
+0139.999 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_wpforms_tasks_meta.table.tmpr6.gz (183/98/fopen): adding to final database dump
+0140.001 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_wpforms_tasks_meta.table.gz (184/98/fopen): adding to final database dump
+0140.002 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_wpmailsmtp_debug_events.table.tmpr5.gz (185/98/fopen): adding to final database dump
+0140.003 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_wpmailsmtp_debug_events.table.gz (186/98/fopen): adding to final database dump
+0140.004 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_wpmailsmtp_tasks_meta.table.tmpr3.gz (187/98/fopen): adding to final database dump
+0140.006 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_wpmailsmtp_tasks_meta.table.gz (188/98/fopen): adding to final database dump
+0140.007 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_wt_dates.table.tmpr0.gz (189/98/fopen): adding to final database dump
+0140.008 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_wt_dates.table.gz (190/98/fopen): adding to final database dump
+0140.010 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_wt_excluded_dates_times.table.tmpr0.gz (191/98/fopen): adding to final database dump
+0140.011 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_wt_excluded_dates_times.table.gz (192/98/fopen): adding to final database dump
+0140.013 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_wt_price_category_relation.table.tmpr0.gz (193/98/fopen): adding to final database dump
+0140.015 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_wt_price_category_relation.table.gz (194/98/fopen): adding to final database dump
+0140.017 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_wt_pricings.table.tmpr0.gz (195/98/fopen): adding to final database dump
+0140.018 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db-table-wp_wt_pricings.table.gz (196/98/fopen): adding to final database dump
+0140.035 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db.gz: finished writing out complete database file (3094.3 KB)
+0140.122 (0) Total database tables backed up: 98 (backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db.gz, size: 3168667, sha1: b1fc5e494efd1ce6a4c3f25ec0b7ad5ffd9b6be0, sha256: fbcf42bcb27a9224693ce7aabe3256425732b52ccc0906957664a361edb35a50)
+0140.132 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-plugins.zip: plugins: This file has already been successfully uploaded
+0140.134 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-themes.zip: themes: This file has already been successfully uploaded
+0140.135 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-uploads.zip: uploads: This file has already been successfully uploaded
+0140.136 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-others.zip: others: This file has already been successfully uploaded
+0140.137 (0) backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db.gz: db: This file has not yet been successfully uploaded: will queue
+0140.139 (0) Saving backup history. Total backup size: 161.2 MB
+0140.142 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0140.147 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0140.148 (0) No remote despatch: user chose no remote backup service
+0140.149 (0) Recording as successfully uploaded: backup_2022-10-09-2033_Holidays_travel_and_tours_c2c796b0d013-db.gz
+0140.154 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0140.155 (0) Number of backup sets in history: 1; groups (db): 1
+0140.156 (0) Examining (for databases) backup set with group_id=0, nonce=c2c796b0d013, datestamp=1665347596 (Oct 09 2022 20:33:16)
+0140.157 (0) This backup set is the backup set just made, so will not be deleted.
+0140.157 (0) Number of backup sets in history: 1; groups (files): 1
+0140.158 (0) Examining (for files) backup set with nonce=c2c796b0d013, datestamp=1665347596 (Oct 09 2022 20:33:16)
+0140.158 (0) This backup set is the backup set just made, so will not be deleted.
+0140.159 (0) This backup set is the backup set just made, so will not be deleted.
+0140.159 (0) This backup set is the backup set just made, so will not be deleted.
+0140.159 (0) This backup set is the backup set just made, so will not be deleted.
+0140.160 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0140.161 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0140.165 (0) Resume backup (c2c796b0d013, 0): finish run
+0140.166 (0) Decremented the semaphore (fd) by 1
+0140.168 (0) Semaphore (fd) unlocked
+0140.168 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0140.173 (0) No email will/can be sent - the user has not configured an email address.
+0140.174 (0) The backup apparently succeeded and is now complete

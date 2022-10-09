@@ -1,0 +1,44 @@
+.page-content .wp-smiley,
+.entry-content .wp-smiley,
+.comment-content .wp-smiley {
+	border: none;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 0;
+}
+
+/* Make sure logo link wraps around logo image. */
+.custom-logo-link {
+	display: inline-block;
+}
+
+// Media and Text Block content padding on the basis of default, wide and full view in backend editor
+// .wp-block-media-text {
+// 	&[data-align="full"],
+// 	&.alignfull {
+// 		max-width: none;
+// 		.wp-block-media-text__content {
+// 			@media (max-width: 599px) {
+// 				padding: 0 5%;
+// 			}
+// 		}
+// 	}
+// 	&[data-align="wide"],
+// 	&.alignwide {
+// 		max-width: var(--responsive--alignwide-width);
+// 		.wp-block-media-text__content {
+// 			@media (max-width: 599px) {
+// 				padding: 0;
+// 			}
+// 		}
+// 	}
+// 	&[data-align="default"],
+// 	&.aligndefault {
+// 		max-width: var(--responsive--aligndefault-width);
+// 		.wp-block-media-text__content {
+// 			@media (max-width: 599px) {
+// 				padding: 0;
+// 			}
+// 		}
+// 	}
+// }

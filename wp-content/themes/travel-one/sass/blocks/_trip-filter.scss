@@ -1,0 +1,206 @@
+.wptravel-block-wrapper {
+	//Design issue in Trip Duration under Filter widget
+	&.wptravel-block-trip-filters {
+		.wp-travel-form-field {
+			&.wp-travel-trip-duration {
+				.calender-icon {
+					width: 48px;
+					height: 47px;
+					top: 30px;
+					left: 3px;
+					&::before {
+						top: 13px;
+						right: 17.5px;
+					}
+					@media (max-width: 1085px) {
+						width: 48px;
+						height: 49px;
+						top: 29px;
+						left: 2px;
+					}
+				}
+				input {
+					padding-left: 58px !important;
+				}
+				input[type="text"] {
+					padding: 3px 10px;
+				}
+				span.trip-duration-calender {
+					@media (max-width: 500px) {
+						width: 100%;
+					}
+				}
+			}
+		}
+	}
+}
+.wp-travel {
+	// Change color of text or button when hovering view gallery button
+	&.trip-headline-wrapper {
+		.featured-side-image {
+			&.left-plot {
+				.wp-travel-view-gallery a:hover {
+					background-color: var(--global-primary-color);
+					color: #ffffff;
+				}
+			}
+		}
+	}
+}
+.wp-travel-list-view {
+	//  checkbox issue fixed
+	.wptravel-recurring-dates {
+		.wptravel-recurring-table-wrapper {
+			.wptravel-recurring-table {
+				.tbody-table tr td {
+					padding-left: 8px;
+					padding-right: 8px;
+					@media (min-width: 451px) and (max-width: 576px) {
+						flex-wrap: nowrap;
+					}
+					&:not(:nth-child(2)) {
+						@media (max-width: 450px) {
+							text-align: left;
+						}
+					}
+				}
+				.tbody-table td::before {
+					@media (max-width: 450px) {
+						padding-bottom: 15px;
+					}
+				}
+			}
+		}
+	}
+}
+
+.components-checkbox-control {
+	// Check box issue fixed
+	input[type="checkbox"] {
+		@media (min-width: 576px) and (max-width: 991px) {
+			margin-top: 5px;
+			display: inline;
+			height: 15px;
+			width: 15px;
+		}
+	}
+}
+.wp-travel-list-view {
+	// Manage alignment of start and end text to same
+	.wptravel-recurring-dates {
+		.wptravel-recurring-table-wrapper {
+			.wptravel-recurring-table {
+				.components-base-control__field {
+					.components-checkbox-control__input {
+						@media (min-width: 450px) and (max-width: 575px) {
+							width: 15px;
+							height: 15px;
+						}
+						@media (max-width: 450px) {
+							width: 15px;
+							height: 15px;
+						}
+					}
+					label {
+						@media (min-width: 450px) and (max-width: 575px) {
+							font-size: 15px;
+						}
+						@media (max-width: 450px) {
+							font-size: 15px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+.resp-tab-content {
+	.wp-travel-list-view {
+		// increase the size of pax selector button - List date while booking
+		.wp-travel-booking__trip-option-list {
+			.qty-spinner span {
+				@media (max-width: 991px) {
+					height: 24px;
+					line-height: 24px;
+				}
+			}
+			.item-price {
+				@media (max-width: 991px) {
+					padding-bottom: 10px;
+				}
+			}
+			&button {
+				@media (max-width: 991px) {
+					padding: 0px 10px; // increase the size of pax selector button - List date while booking
+					top: -2px; // increase the size of pax selector button - List date while booking
+				}
+			}
+		}
+	}
+}
+.widget-area {
+	// issue in WP Travel Trips by Type widget
+	.widget_block {
+		.wp-travel-itinerary-items {
+			ul.wp-travel-itinerary-list {
+				grid-template-columns: repeat(1, 1fr);
+				@media (min-width: 651px) and (max-width: 1199px) {
+					grid-template-columns: repeat(2, 1fr);
+				}
+			}
+		}
+	}
+}
+
+.wptravel-block-wrapper {
+	.wp-travel-itinerary-items {
+		ul.wp-travel-itinerary-list {
+			grid-template-columns: repeat(3, 1fr);
+			@media (min-width: 651px) and (max-width: 1199px) {
+				grid-template-columns: repeat(2, 1fr);
+			}
+			@media (max-width: 650px) {
+				grid-template-columns: repeat(1, 1fr);
+			}
+		}
+	}
+}
+
+//
+.wptravel-block-wrapper {
+	&.wptravel-block-trip-filters {
+		@media (max-width: 1199px) {
+			padding: 0px;
+		}
+	}
+	&.wptravel-block-trip-enquiry {
+		@media (max-width: 1199px) {
+			padding: 0px;
+		}
+	}
+}
+// .wp-travel-enquiries-form {
+// 	.wp-travel-form-field {
+// 		margin: 0;
+// 	}
+// }
+.widget_wp_travel_trip_enquiry_form_widget {
+	h2.widget-title {
+		margin-bottom: 5px;
+	}
+}
+.wp-travel-entry-content-wrapper {
+	.description-left {
+		.entry-meta {
+			display: block;
+		}
+	}
+}
+
+.widget {
+	.trip-duration-calender {
+		input {
+			padding-right: 0;
+		}
+	}
+}

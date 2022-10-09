@@ -1,0 +1,22 @@
+{
+	"name": "wp-travel/sale-trip",
+	"category": "wp-travel",
+	"attributes": {
+		"query": {
+			"type": "object",
+			"default": {
+				"numberOfItems": 2,
+				"orderBy": "title",
+				"order" : "asc"
+			}
+		},
+		"postNumbers": {
+			"type": "number",
+			"default": 2
+		},
+		"saleTrip": {
+			"type": "boolean",
+			"default": true
+		}
+	}
+}

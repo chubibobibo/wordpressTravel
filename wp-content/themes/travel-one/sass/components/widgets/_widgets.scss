@@ -1,0 +1,27 @@
+.widget {
+	// margin: 0 0 1.5em;
+
+	// Make sure select elements fit in widgets.
+	select {
+		max-width: 100%;
+	}
+
+	// Widget search box with icon color
+	.wp-block-search__inside-wrapper {
+		button.has-icon {
+			svg {
+				fill: var(--wp--preset--color--white);
+			}
+		}
+	}
+	// Widget list and grid view in responsive view
+	.wp-travel-itinerary-items {
+		.wp-travel-itinerary-list {
+			@media (min-width: 651px) and (max-width: 1199px) {
+				display: grid;
+				grid-template-columns: repeat(2, 1fr);
+				column-gap: 1.5em;
+			}
+		}
+	}
+}

@@ -1,0 +1,9 @@
+.entry-footer {
+	max-width: var(--responsive--aligndefault-width);
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	gap: 1em;
+	margin-top: var(--global--spacing-vertical);
+	margin-bottom: var(--global--spacing-vertical);
+}

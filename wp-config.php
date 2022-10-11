@@ -24,13 +24,13 @@
 define( 'DB_NAME', 'practicedatabase' );
 
 /** Database username */
-define( 'DB_USER', 'root' );
+define( 'DB_USER', 'nvxcq8oj5pjwifrt' );
 
 /** Database password */
-define( 'DB_PASSWORD', '' );
+define( 'DB_PASSWORD', 'f1zuggtovusw78z2' );
 
 /** Database hostname */
-define( 'DB_HOST', '127.0.0.1:3307' );
+define( 'DB_HOST', 'ltnya0pnki2ck9w8.chr7pe7iynqr.eu-west-1.rds.amazonaws.com' );
 
 /** Database charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8mb4' );
